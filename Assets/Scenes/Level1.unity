@@ -1115,6 +1115,7 @@ GameObject:
   - component: {fileID: 963130171}
   - component: {fileID: 963130172}
   - component: {fileID: 963130173}
+  - component: {fileID: 963130174}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1276,6 +1277,20 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &963130174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963130166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d7f6e000230ab94d969c1f14990851c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pomboprefab: {fileID: 2891182245606189029, guid: e2187c1a1c977e3468977e4c21720b6c,
+    type: 3}
 --- !u!1 &979776779
 GameObject:
   m_ObjectHideFlags: 0

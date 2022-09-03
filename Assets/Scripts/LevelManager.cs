@@ -9,7 +9,7 @@ public class LevelManager : MonoBehaviour {
     public float life = 1;
     public GameObject respawn;
     public GameObject playerprefab;
-    GameObject playerinstance;
+    public static GameObject playerinstance;
     public MyCamera mycamera;
 
     // Use this for initialization
