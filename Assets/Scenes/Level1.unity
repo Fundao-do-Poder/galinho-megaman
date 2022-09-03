@@ -1291,6 +1291,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pomboprefab: {fileID: 2891182245606189029, guid: e2187c1a1c977e3468977e4c21720b6c,
     type: 3}
+  minhocaavisoprefab: {fileID: 2978595247303578510, guid: 17251d3ff3f0c7844873eddbf6622071,
+    type: 3}
 --- !u!1 &979776779
 GameObject:
   m_ObjectHideFlags: 0
