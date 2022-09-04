@@ -151,6 +151,7 @@ public class Control : MonoBehaviour
         if (collision.collider.CompareTag("Damage"))
         {
             LevelManager.instance.LowDamage();
+            Destroy(collision.gameObject);
         }
     }
 }

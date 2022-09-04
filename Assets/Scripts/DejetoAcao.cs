@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class DejetoAcao : MonoBehaviour
 {
+    float tempo;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,6 +18,22 @@ public class DejetoAcao : MonoBehaviour
             transform.position.x > Camera.main.transform.position.x + 8 ||
             transform.position.y < Camera.main.transform.position.y - 8 ||
             transform.position.y > Camera.main.transform.position.y + 8)
+        {
+            Destroy(gameObject);
+        }
+        tempo++;
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (transform.position.y < -18f && tempo > 30)
+        {
+            Destroy(gameObject);
+        }
+    }
+    private void OnParticleCollision(GameObject other)
+    {
+        if (transform.position.y < -18f && tempo > 30)
         {
             Destroy(gameObject);
         }
