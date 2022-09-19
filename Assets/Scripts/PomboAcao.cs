@@ -27,35 +27,43 @@ public class PomboAcao : MonoBehaviour
             Destroy(gameObject);
         }
 
-        if (transform.position.x < target.transform.position.x + 2 && transform.position.x > target.transform.position.x - 2 && tempo < 60*8)
+        if (target != null)
         {
-            rdb.velocity = Vector3.zero;
-            tempo++;
+            if (transform.position.x < target.transform.position.x + 2 && transform.position.x > target.transform.position.x - 2 && tempo < 60 * 8)
+            {
+                rdb.velocity = Vector3.zero;
+                tempo++;
 
-            //transform.position = Vector3.Lerp(transform.position,
+                //transform.position = Vector3.Lerp(transform.position,
                 //new Vector3(target.transform.position.x +
                 //rdb.velocity.x * 2
                 //, target.transform.position.y + 1.5f + Random.Range(-2f, 2f)
                 //, transform.position.z), 0.02f);
-            var pos = transform.position;
-            pos.x = Mathf.Lerp(transform.position.x, target.transform.position.x, 0.02f);
-            pos.y = Mathf.Lerp(transform.position.y, target.transform.position.y + 1.5f + Random.Range(-2f, 2f), 0.002f);
-            transform.position = pos;
-            if (pos.x < target.transform.position.x)
-            {
-                transform.localScale = new Vector3(-1, 1, 1);
+                var pos = transform.position;
+                pos.x = Mathf.Lerp(transform.position.x, target.transform.position.x, 0.02f);
+                pos.y = Mathf.Lerp(transform.position.y, target.transform.position.y + 1.5f + Random.Range(-2f, 2f), 0.002f);
+                transform.position = pos;
+                if (pos.x < target.transform.position.x)
+                {
+                    transform.localScale = new Vector3(-1, 1, 1);
+                }
+                else if (pos.x > target.transform.position.x)
+                {
+                    transform.localScale = new Vector3(1, 1, 1);
+                }
+                if (tempo == 60 * 6)
+                {
+                    var dejeto = Instantiate(dejetoprefab, new Vector3(transform.position.x, transform.position.y, transform.position.z), Quaternion.identity);
+                    dejeto.GetComponent<Rigidbody2D>().AddForce(Vector3.down * 0.1f, ForceMode2D.Impulse);
+                }
+
             }
-            else if (pos.x > target.transform.position.x)
-            {
-                transform.localScale = new Vector3(1, 1, 1);
-            }
-            if (tempo == 60 * 6)
-            {
-                var dejeto = Instantiate(dejetoprefab, new Vector3(transform.position.x, transform.position.y, transform.position.z), Quaternion.identity);
-                dejeto.GetComponent<Rigidbody2D>().AddForce(Vector3.down * 0.1f, ForceMode2D.Impulse);
-            }
-        
         }
+        if (tempo >= 1 && !target)
+        {
+            tempo++;
+        }
+        
         if (tempo == 60 * 8)
         {
             rdb.velocity = Vector3.zero;
@@ -68,5 +76,6 @@ public class PomboAcao : MonoBehaviour
         {
             transform.localScale = new Vector3(1, 1, 1);
         }
+        
     }
 }

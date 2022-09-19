@@ -1,149 +1,113 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static UnityEngine.InputSystem.InputAction;
 
 public class Control : MonoBehaviour
 {
-    public Animator anima;
-    float xmov;
-    public Rigidbody2D rdb;
-    bool jump,doublejump;
-    float jumptime, jumptimeside;
-    public ParticleSystem fire;
+    float sentido = 0; // o nome desse sujeito eh campo, que eh uma variavel declarada no escopo da classe
+    const float RAIO_JUMPABLE = 0.05f;
+    int puloVezes = 1;
+    int puloMax = 2; // somar
+    bool noChao = false;
+
+    [SerializeField]
+    ParticleSystem fire;
+
+    [SerializeField]
+    float forcaPulo = 8f;
+
+    Animator animator;
+    Rigidbody2D rigidbody;
+
+    [SerializeField]
+    LayerMask layerMask;
+
     void Start()
     {
-
+        animator = GetComponent<Animator>();
+        rigidbody = GetComponent<Rigidbody2D>();
     }
+    private void Awake()
+    {
+        GameObject[] gObjetos = GameObject.FindGameObjectsWithTag("Player");
+        if (gObjetos.Length > 1)
+        {
+            gameObject.GetComponent<Collider2D>().enabled = false;
+            gObjetos[0].transform.GetChild(1).transform.position = gameObject.transform.position;
+            Destroy(gameObject.transform.parent.gameObject);
+        }
+    }
+
     void Update()
     {
-        xmov = Input.GetAxis("Horizontal");
-        if (Input.GetButtonDown("Jump"))
+        Vector2 velAtual = rigidbody.velocity;
+        velAtual.x = 2f * sentido;
+        rigidbody.velocity = velAtual;
+        animator.SetBool("GROUNDED", noChao);
+        if (sentido != 0)
         {
-            if (jumptime < 0.1f)
-            {
-                doublejump = true;
-            }
-        }
-
-        if (Input.GetButton("Jump"))
-        {
-            jump = true;
+            gameObject.transform.localScale = new Vector3(1f * sentido, 1f, 1f);
+            animator.SetBool("WALKING", true);
         }
         else
         {
-            jump = false;
-            doublejump = false;
-            jumptime = 0;
-            jumptimeside = 0;
-        }
-        anima.SetBool("Fire", false);
-
-        if (Input.GetButtonDown("Fire1"))
-        {
-            fire.Emit(1);
-            anima.SetBool("Fire", true);
+            animator.SetBool("WALKING", false);
         }
 
     }
    
     void FixedUpdate()
     {
-        Reverser();
-        anima.SetFloat("Velocity", Mathf.Abs(xmov));
-        //rdb.velocity = new Vector2(xmov * 1.3f, rdb.velocity.y);
-
-        rdb.AddForce(new Vector2(xmov * 20/(rdb.velocity.magnitude+1), 0));
-
-        RaycastHit2D hit;
-        hit = Physics2D.Raycast(transform.position, Vector2.down);
-        if (hit)
+        Collider2D hit = Physics2D.OverlapCircle(transform.position, RAIO_JUMPABLE, layerMask);
+        Debug.Log(rigidbody.velocity.y);
+        if (hit != null && (rigidbody.velocity.y <= 0.5f || puloVezes == 0))
         {
-            anima.SetFloat("Height", hit.distance);
-            JumpRoutine(hit);
-        }
-
-        RaycastHit2D hitright;
-        hitright = Physics2D.Raycast(transform.position+
-            Vector3.up*0.5f, transform.right,1);
-
-        if (hitright)
-        {
-            if (hitright.distance < 0.3f)
+            if (hit.CompareTag("Chao"))
             {
-                JumpRoutineSide(hitright);
+                noChao = true;
+                animator.SetBool("JUMP", false);
+                puloVezes = 0;
             }
-            Debug.DrawLine(hitright.point, transform.position 
-                + Vector3.up * 0.5f);
-        }
+            //else if (hit.CompareTag("ADVERSARIO"))
+            //{
+            //    Destroy(hit.gameObject);
+            //    //hpbar.fillAmount += 0.2f;
+            //}
 
-        
-    }
-    /// <summary>
-    /// rotina de pulo parte fisica
-    /// </summary>
-    /// <param name="hit">coloque aqui o raycast hit para altura do chao</param>
-    private void JumpRoutine(RaycastHit2D hit)
-    {
-        if (hit.distance < 0.1f)
+        }
+        else
         {
-            jumptime = 1;
+            noChao = false;
         }
-      
 
-            if (jump)
-            {
-                jumptime = Mathf.Lerp(jumptime, 0, Time.fixedDeltaTime * 10);
-                rdb.AddForce(Vector2.up * jumptime, ForceMode2D.Impulse);
-            }
-        
+
     }
 
-    private void JumpRoutineSide(RaycastHit2D hitside)
+    public void Atirar(CallbackContext context)
     {
-        if (hitside.distance < 0.3f )
+        if (context.ReadValue<float>() == 1)
         {
-
-            jumptimeside = 1;
-           
-        }
-
-        if (doublejump)
-        {
-            PhisicalReverser();
-            jumptimeside = Mathf.Lerp(jumptimeside, 0, Time.fixedDeltaTime*10);
-            rdb.AddForce((hitside.normal*50 + Vector2.up*80) * jumptimeside);
+            animator.SetTrigger("FIRE");
+            fire.Emit(1);
         }
     }
 
-
-
-
-    /// <summary>
-    /// funcao pra inverter o personagem
-    /// </summary>
-    void Reverser()
+    public void Pular(CallbackContext context)
     {
-        if (xmov > 0)
+        if (context.ReadValue<float>() == 1 && puloVezes <= puloMax)
         {
-            transform.rotation = Quaternion.Euler(0, 0, 0);
+            rigidbody.velocity = Vector3.zero;
+            rigidbody.AddForce(new Vector2(0, forcaPulo), ForceMode2D.Impulse);
+            animator.SetBool("JUMP", true);
+            noChao = false;
+            puloVezes += 1;
         }
-        if (xmov < 0)
-        {
-            transform.rotation = Quaternion.Euler(0, 180, 0);
-        }
-
     }
-    void PhisicalReverser()
-    {
-        if (rdb.velocity.x > 0.1f)
-        {
-            transform.rotation = Quaternion.Euler(0, 0, 0);
-        }
-        if (rdb.velocity.x < 0.1f)
-        {
-            transform.rotation = Quaternion.Euler(0, 180, 0);
-        }
 
+    public void Sentido(CallbackContext context)
+    {
+        sentido = context.ReadValue<float>();
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
