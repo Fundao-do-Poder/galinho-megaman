@@ -40,7 +40,7 @@ public class PomboAcao : MonoBehaviour
                 //, target.transform.position.y + 1.5f + Random.Range(-2f, 2f)
                 //, transform.position.z), 0.02f);
                 var pos = transform.position;
-                pos.x = Mathf.Lerp(transform.position.x, target.transform.position.x, 0.02f);
+                pos.x = Mathf.Lerp(transform.position.x, target.transform.position.x, 0.0275f);
                 pos.y = Mathf.Lerp(transform.position.y, target.transform.position.y + 1.5f + Random.Range(-2f, 2f), 0.002f);
                 transform.position = pos;
                 if (pos.x < target.transform.position.x)

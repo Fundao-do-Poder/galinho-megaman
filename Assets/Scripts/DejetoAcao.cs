@@ -26,16 +26,10 @@ public class DejetoAcao : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (transform.position.y < -18f && tempo > 30)
-        {
-            Destroy(gameObject);
-        }
+        Destroy(gameObject);
     }
     private void OnParticleCollision(GameObject other)
     {
-        if (transform.position.y < -18f && tempo > 30)
-        {
-            Destroy(gameObject);
-        }
+        Destroy(gameObject);
     }
 }

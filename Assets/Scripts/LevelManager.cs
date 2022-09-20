@@ -5,8 +5,8 @@ using UnityEngine;
 public class LevelManager : MonoBehaviour {
 
     public static LevelManager instance;
-    public SpriteRenderer lifebar;
-    public float life = 1;
+    public SpriteRenderer lifeegg;
+    public float life = 6;
     public GameObject respawn;
     public GameObject playerprefab;
     public static GameObject playerinstance;
@@ -20,7 +20,6 @@ public class LevelManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        lifebar.size = new Vector2(life * 2.17f, 0.8f);
         if (!playerinstance)
         {
             CreatePlayer();
@@ -30,16 +29,15 @@ public class LevelManager : MonoBehaviour {
     {
         playerinstance = Instantiate(playerprefab, respawn.transform.position, Quaternion.identity);
         mycamera.SetPlayer(playerinstance);
-        life = 1;
+        life = 6;
     }
     /// <summary>
     /// Aplica pouco dano
     /// </summary>
     public void LowDamage()
     {
-        life -= 0.1f;
-        life = Mathf.Clamp01(life);
-        if (life <= 0.01f)
+        life -= 1;
+        if (life == 0)
         {
             Destroy(playerinstance);
         }

@@ -9802,7 +9802,7 @@ Rigidbody2D:
   m_LinearDrag: 0.7
   m_AngularDrag: 0.05
   m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 72625379d6e68ca4c9c691940f14fb29, type: 2}
   m_Interpolate: 1
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -9836,7 +9836,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fire: {fileID: 198825090059282404}
-  forcaPulo: 8
+  forcaPulo: 6
   layerMask:
     serializedVersion: 2
     m_Bits: 512

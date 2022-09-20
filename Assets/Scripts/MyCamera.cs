@@ -12,11 +12,54 @@ public class MyCamera : MonoBehaviour {
 	void LateUpdate () {
         if (target)
         {
-            transform.position = Vector3.Lerp(transform.position,
+            //if (target.transform.position.y > -19f && target.transform.position.y < transform.position.y)
+            //{
+            //    transform.position = Vector3.Lerp(transform.position,
+            //    new Vector3(target.transform.position.x +
+            //    rdb.velocity.x * 2
+            //    , target.transform.position.y - 1.5f
+            //    , transform.position.z), Time.smoothDeltaTime);
+            //
+            //    //transform.position = Vector3.Lerp(transform.position,
+            //    //new Vector3(target.transform.position.x
+            //    //, transform.position.y - 1.5f
+            //    //, transform.position.z), 1);
+            //}
+            if (target.transform.position.y > -19f)
+            {
+                
+                if (transform.position.y >= -17f || target.transform.position.y >= -16)
+                {
+                    transform.position = Vector3.Lerp(transform.position,
+                    new Vector3(target.transform.position.x +
+                    rdb.velocity.x * 2
+                    , target.transform.position.y
+                    , transform.position.z), Time.smoothDeltaTime);
+                } else
+                {
+                    transform.position = Vector3.Lerp(transform.position,
+                    new Vector3(target.transform.position.x +
+                    rdb.velocity.x * 2
+                    , transform.position.y
+                    , transform.position.z), Time.smoothDeltaTime);
+                }
+            }
+            if (transform.position.y < -17f)
+            {
+                transform.position = Vector3.Lerp(transform.position,
+                    new Vector3(target.transform.position.x
+                    , -17f
+                    , transform.position.z), Time.smoothDeltaTime);
+            }
+            if (target.transform.position.y <= -19f)
+            {
+                Destroy(LevelManager.playerinstance);
+                transform.position = Vector3.Lerp(transform.position,
                 new Vector3(target.transform.position.x +
                 rdb.velocity.x * 2
-                , target.transform.position.y + 1.5f
+                , -16.81205f
                 , transform.position.z), Time.smoothDeltaTime);
+            }
         }
 	}
     /// <summary>
