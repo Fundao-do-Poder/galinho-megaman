@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour {
 
@@ -20,10 +21,16 @@ public class LevelManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        if (life == 0)
+        {
+            //GOAcao.instance.last_scene = SceneManager.GetActiveScene();
+            SceneManager.LoadScene("GameOver");
+        }
         if (!playerinstance)
         {
             CreatePlayer();
         }
+        
     }
     void CreatePlayer()
     {
@@ -39,7 +46,8 @@ public class LevelManager : MonoBehaviour {
         life -= 1;
         if (life == 0)
         {
-            Destroy(playerinstance);
+            //Destroy(playerinstance);
+            
         }
     }
 }
