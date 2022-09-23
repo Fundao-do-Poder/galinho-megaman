@@ -15,6 +15,7 @@ public class GOAcao : MonoBehaviour
     float tempo = 15;
     public float ovo_timer = 0;
     public static Scene last_scene;
+    public int GO_sel_final = 0;
 
     public Sprite yes_1;
     public Sprite yes_2;
@@ -84,7 +85,7 @@ public class GOAcao : MonoBehaviour
         } 
         else if (ovo_timer > 0)
         {
-            if (GO_sel == 1)
+            if (GO_sel_final == 1)
             {
                 var ovo = getChildGameObject(gameObject, "Ovo");
                 const int ADD = 6;
@@ -175,7 +176,7 @@ public class GOAcao : MonoBehaviour
                 }
             }
 
-            if (GO_sel == 2)
+            if (GO_sel_final == 2)
             {
                 var ovo = getChildGameObject(gameObject, "Ovo");
                 const int ADD = 6;
@@ -296,6 +297,7 @@ public class GOAcao : MonoBehaviour
                 GO_sel = 1;
             }
             tempo = 30;
+            Debug.Log(GO_sel);
         } 
         else if (context.ReadValue<float>() == -1 && tempo <= 0)
         {
@@ -308,11 +310,16 @@ public class GOAcao : MonoBehaviour
                 GO_sel = 1;
             }
             tempo = 30;
+            Debug.Log(GO_sel);
         }
     }
 
     public void Entrar(CallbackContext context)
     {
-        ovo_timer = 1;
+        if (ovo_timer == 0)
+        {
+            ovo_timer = 1;
+            GO_sel_final = GO_sel;
+        }
     }
  }

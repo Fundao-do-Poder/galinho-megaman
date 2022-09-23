@@ -53,7 +53,7 @@ public class MyCamera : MonoBehaviour {
             }
             if (target.transform.position.y <= -19f)
             {
-                Destroy(LevelManager.playerinstance);
+                LevelManager.instance.life = 0;
                 transform.position = Vector3.Lerp(transform.position,
                 new Vector3(target.transform.position.x +
                 rdb.velocity.x * 2

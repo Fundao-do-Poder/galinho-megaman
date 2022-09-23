@@ -16,7 +16,7 @@ public class LevelManager : MonoBehaviour {
     // Use this for initialization
     void Start () {
         instance = this;
-       
+        CreatePlayer();
     }
 	
 	// Update is called once per frame
@@ -26,10 +26,10 @@ public class LevelManager : MonoBehaviour {
             //GOAcao.instance.last_scene = SceneManager.GetActiveScene();
             SceneManager.LoadScene("GameOver");
         }
-        if (!playerinstance)
-        {
-            CreatePlayer();
-        }
+        //if (!playerinstance)
+        //{
+        //    CreatePlayer();
+        //}
         
     }
     void CreatePlayer()
@@ -47,7 +47,7 @@ public class LevelManager : MonoBehaviour {
         if (life == 0)
         {
             //Destroy(playerinstance);
-            
+            SceneManager.LoadScene("GameOver");
         }
     }
 }

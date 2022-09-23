@@ -1,49 +1,55 @@
 fileFormatVersion: 2
-guid: a136aafb176a2444a8c5021c46028ab9
+guid: 0c10b5d55c02674499696948254fe6f0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4361122949348833402
-    second: GO_YES_FINAL_0
+      213: 8811552940961242146
+    second: Spritesheet_Walking_Frangomem_0
   - first:
-      213: -4956940850259037690
-    second: GO_YES_FINAL_1
+      213: 3244353683771411487
+    second: Spritesheet_Walking_Frangomem_1
   - first:
-      213: -1687109373253392717
-    second: GO_YES_FINAL_2
+      213: -1279086556558296269
+    second: Spritesheet_Walking_Frangomem_2
   - first:
-      213: 6496864148218791688
-    second: GO_YES_FINAL_3
+      213: 2378818279164263347
+    second: Spritesheet_Walking_Frangomem_3
   - first:
-      213: 8484047376622231294
-    second: GO_YES_FINAL_4
+      213: -9163691507352196667
+    second: Spritesheet_Walking_Frangomem_4
   - first:
-      213: -4775758044379204502
-    second: GO_YES_FINAL_5
+      213: 6576934262279259809
+    second: Spritesheet_Walking_Frangomem_5
   - first:
-      213: 3726279856511670652
-    second: GO_YES_FINAL_6
+      213: -6099089835430409299
+    second: Spritesheet_Walking_Frangomem_6
   - first:
-      213: -7919556122936193847
-    second: GO_YES_FINAL_7
+      213: 812168369323017427
+    second: Spritesheet_Walking_Frangomem_7
   - first:
-      213: 1921026327597481756
-    second: GO_YES_FINAL_8
+      213: -5600449795773323382
+    second: Spritesheet_Walking_Frangomem_8
   - first:
-      213: -3807143847975737562
-    second: GO_YES_FINAL_9
+      213: -3551582184335248485
+    second: Spritesheet_Walking_Frangomem_9
   - first:
-      213: -4284658833549044773
-    second: GO_YES_FINAL_10
+      213: 6991631529469092256
+    second: Spritesheet_Walking_Frangomem_10
   - first:
-      213: -4057811623756644479
-    second: GO_YES_FINAL_11
+      213: -8591704306297619105
+    second: Spritesheet_Walking_Frangomem_11
   - first:
-      213: 8292205735857100976
-    second: GO_YES_FINAL_12
+      213: -6476314709443707251
+    second: Spritesheet_Walking_Frangomem_12
   - first:
-      213: -807443875569601327
-    second: GO_YES_FINAL_13
+      213: -8055325812409301386
+    second: Spritesheet_Walking_Frangomem_13
+  - first:
+      213: -8942387151646489511
+    second: Spritesheet_Walking_Frangomem_14
+  - first:
+      213: 4353795591316579364
+    second: Spritesheet_Walking_Frangomem_15
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -107,7 +113,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -119,7 +125,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -133,295 +139,337 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GO_YES_FINAL_0
+      name: Spritesheet_Walking_Frangomem_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 256
-        height: 256
+        width: 48
+        height: 60
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a78bdb95732d58c30800000000000000
-      internalID: 4361122949348833402
+      spriteID: 22c1b85d6bce84a70800000000000000
+      internalID: 8811552940961242146
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GO_YES_FINAL_1
+      name: Spritesheet_Walking_Frangomem_1
       rect:
         serializedVersion: 2
-        x: 256
+        x: 48
         y: 0
-        width: 256
-        height: 256
+        width: 48
+        height: 60
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 602ffa74f88653bb0800000000000000
-      internalID: -4956940850259037690
+      spriteID: f1cccee6c72460d20800000000000000
+      internalID: 3244353683771411487
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GO_YES_FINAL_2
+      name: Spritesheet_Walking_Frangomem_2
       rect:
         serializedVersion: 2
-        x: 512
+        x: 96
         y: 0
-        width: 256
-        height: 256
+        width: 48
+        height: 60
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b6eff5b6fe2698e0800000000000000
-      internalID: -1687109373253392717
+      spriteID: 33b7d5fbd85cf3ee0800000000000000
+      internalID: -1279086556558296269
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GO_YES_FINAL_3
+      name: Spritesheet_Walking_Frangomem_3
       rect:
         serializedVersion: 2
-        x: 768
+        x: 144
         y: 0
-        width: 256
-        height: 256
+        width: 48
+        height: 60
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8074d8c558f792a50800000000000000
-      internalID: 6496864148218791688
+      spriteID: 3bbbac21f92430120800000000000000
+      internalID: 2378818279164263347
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GO_YES_FINAL_4
+      name: Spritesheet_Walking_Frangomem_4
       rect:
         serializedVersion: 2
-        x: 1024
+        x: 192
         y: 0
-        width: 256
-        height: 256
+        width: 48
+        height: 60
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: efe172d73246db570800000000000000
-      internalID: 8484047376622231294
+      spriteID: 5c92209102704d080800000000000000
+      internalID: -9163691507352196667
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GO_YES_FINAL_5
+      name: Spritesheet_Walking_Frangomem_5
       rect:
         serializedVersion: 2
-        x: 1280
+        x: 240
         y: 0
-        width: 256
-        height: 256
+        width: 48
+        height: 60
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6430979c5919bdb0800000000000000
-      internalID: -4775758044379204502
+      spriteID: 1a6404e8dd6f54b50800000000000000
+      internalID: 6576934262279259809
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GO_YES_FINAL_6
+      name: Spritesheet_Walking_Frangomem_6
       rect:
         serializedVersion: 2
-        x: 1536
+        x: 288
         y: 0
-        width: 256
-        height: 256
+        width: 48
+        height: 60
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c79521d69c766b330800000000000000
-      internalID: 3726279856511670652
+      spriteID: dab89f9eb1eab5ba0800000000000000
+      internalID: -6099089835430409299
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GO_YES_FINAL_7
+      name: Spritesheet_Walking_Frangomem_7
       rect:
         serializedVersion: 2
-        x: 1792
+        x: 336
         y: 0
-        width: 256
-        height: 256
+        width: 48
+        height: 60
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9cc4e917aa5181290800000000000000
-      internalID: -7919556122936193847
+      spriteID: 3d48e4f24d6654b00800000000000000
+      internalID: 812168369323017427
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GO_YES_FINAL_8
+      name: Spritesheet_Walking_Frangomem_8
       rect:
         serializedVersion: 2
-        x: 2048
+        x: 384
         y: 0
-        width: 256
-        height: 256
+        width: 48
+        height: 60
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1ffe94544bd8aa10800000000000000
-      internalID: 1921026327597481756
+      spriteID: a87a58c45943742b0800000000000000
+      internalID: -5600449795773323382
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GO_YES_FINAL_9
+      name: Spritesheet_Walking_Frangomem_9
       rect:
         serializedVersion: 2
-        x: 2304
+        x: 432
         y: 0
-        width: 256
-        height: 256
+        width: 48
+        height: 60
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 627a79467de4a2bc0800000000000000
-      internalID: -3807143847975737562
+      spriteID: b93771802de36bec0800000000000000
+      internalID: -3551582184335248485
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GO_YES_FINAL_10
+      name: Spritesheet_Walking_Frangomem_10
       rect:
         serializedVersion: 2
-        x: 2560
+        x: 480
         y: 0
-        width: 256
-        height: 256
+        width: 48
+        height: 60
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd3d192fd75d984c0800000000000000
-      internalID: -4284658833549044773
+      spriteID: 0a12d6235d3470160800000000000000
+      internalID: 6991631529469092256
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GO_YES_FINAL_11
+      name: Spritesheet_Walking_Frangomem_11
       rect:
         serializedVersion: 2
-        x: 2816
+        x: 528
         y: 0
-        width: 256
-        height: 256
+        width: 48
+        height: 60
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18fb880d3d1cfa7c0800000000000000
-      internalID: -4057811623756644479
+      spriteID: f5dbfe7447224c880800000000000000
+      internalID: -8591704306297619105
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GO_YES_FINAL_12
+      name: Spritesheet_Walking_Frangomem_12
       rect:
         serializedVersion: 2
-        x: 3072
+        x: 576
         y: 0
-        width: 256
-        height: 256
+        width: 48
+        height: 60
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b8183ace25d31370800000000000000
-      internalID: 8292205735857100976
+      spriteID: d8e78f1b5128f16a0800000000000000
+      internalID: -6476314709443707251
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GO_YES_FINAL_13
+      name: Spritesheet_Walking_Frangomem_13
       rect:
         serializedVersion: 2
-        x: 3328
+        x: 624
         y: 0
-        width: 256
-        height: 256
+        width: 48
+        height: 60
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d4fb9cb2126bc4f0800000000000000
-      internalID: -807443875569601327
+      spriteID: 6760f414adbb53090800000000000000
+      internalID: -8055325812409301386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Walking_Frangomem_14
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 0
+        width: 48
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 954081ea34246e380800000000000000
+      internalID: -8942387151646489511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Walking_Frangomem_15
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 48
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 424261dd50acb6c30800000000000000
+      internalID: 4353795591316579364
       vertices: []
       indices: 
       edges: []

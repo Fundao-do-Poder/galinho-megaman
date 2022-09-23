@@ -60,7 +60,7 @@ public class Control : MonoBehaviour
     void FixedUpdate()
     {
         Collider2D hit = Physics2D.OverlapCircle(transform.position, RAIO_JUMPABLE, layerMask);
-        Debug.Log(rigidbody.velocity.y);
+        // Debug.Log(rigidbody.velocity.y);
         if (hit != null && (rigidbody.velocity.y <= 0.5f || puloVezes == 0))
         {
             if (hit.CompareTag("Chao"))
