@@ -13,6 +13,7 @@ public class IntroScript : MonoBehaviour
     void ChangeScene()
     {
         SceneManager.LoadScene("Menu");
+        Debug.Log("rosana");
     }
     // Update is called once per frame
     void Update()

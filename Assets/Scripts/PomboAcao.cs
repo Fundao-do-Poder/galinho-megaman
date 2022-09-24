@@ -10,12 +10,20 @@ public class PomboAcao : MonoBehaviour
     [SerializeField]
     GameObject dejetoprefab;
 
+    [SerializeField]
+    GameObject explosaoprefab;
+
     GameObject target = LevelManager.playerinstance;
     float tempo;
+
+    public PomboAcao instance;
+
+    int life = 1;
 
     // Start is called before the first frame update
     void Start()
     {
+        instance = this;
         rdb.AddForce(Vector2.left * 1f, ForceMode2D.Impulse);
     }
 
@@ -76,6 +84,20 @@ public class PomboAcao : MonoBehaviour
         {
             transform.localScale = new Vector3(1, 1, 1);
         }
+
+        if (life <= 0)
+        {
+            Instantiate(explosaoprefab, new Vector3(transform.position.x, transform.position.y, transform.position.z), Quaternion.identity);
+            Destroy(gameObject);
+        }
         
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.collider.CompareTag("Tiro"))
+        {
+            life--;
+        }
     }
 }

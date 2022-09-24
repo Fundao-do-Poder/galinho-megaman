@@ -16,7 +16,7 @@ public class LevelManager : MonoBehaviour {
     // Use this for initialization
     void Start () {
         instance = this;
-        CreatePlayer();
+        CreatePlayer(true);
     }
 	
 	// Update is called once per frame
@@ -26,17 +26,20 @@ public class LevelManager : MonoBehaviour {
             //GOAcao.instance.last_scene = SceneManager.GetActiveScene();
             SceneManager.LoadScene("GameOver");
         }
-        //if (!playerinstance)
-        //{
-        //    CreatePlayer();
-        //}
+        if (!playerinstance && life > 0)
+        {
+            CreatePlayer(false);
+        }
         
     }
-    void CreatePlayer()
+    void CreatePlayer(bool start)
     {
         playerinstance = Instantiate(playerprefab, respawn.transform.position, Quaternion.identity);
         mycamera.SetPlayer(playerinstance);
-        life = 6;
+        if (start)
+        {
+            life = 6;
+        }
     }
     /// <summary>
     /// Aplica pouco dano

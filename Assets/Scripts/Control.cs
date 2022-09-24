@@ -23,6 +23,9 @@ public class Control : MonoBehaviour
     [SerializeField]
     LayerMask layerMask;
 
+    [SerializeField]
+    GameObject tiroprefab;
+
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -89,7 +92,17 @@ public class Control : MonoBehaviour
         if (context.ReadValue<float>() == 1)
         {
             animator.SetTrigger("FIRE");
-            fire.Emit(1);
+            if (transform.localScale.x > 0)
+            {
+                var tiro = Instantiate(tiroprefab, new Vector3(transform.position.x + (1 * transform.localScale.x), transform.position.y + 1, transform.position.z), Quaternion.identity);
+                tiro.GetComponent<Rigidbody2D>().AddForce(Vector2.right * 3f, ForceMode2D.Impulse);
+            }
+            if (transform.localScale.x < 0)
+            {
+                var tiro = Instantiate(tiroprefab, new Vector3(transform.position.x + (1 * transform.localScale.x), transform.position.y + 1, transform.position.z), Quaternion.identity);
+                tiro.GetComponent<Rigidbody2D>().AddForce(Vector2.left * 3f, ForceMode2D.Impulse);
+            }
+
         }
     }
 
