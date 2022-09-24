@@ -12,6 +12,7 @@ public class LevelManager : MonoBehaviour {
     public GameObject playerprefab;
     public static GameObject playerinstance;
     public MyCamera mycamera;
+    public string scene_atual;
 
     // Use this for initialization
     void Start () {
@@ -21,6 +22,7 @@ public class LevelManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        scene_atual = SceneManager.GetActiveScene().name;
         if (life == 0)
         {
             //GOAcao.instance.last_scene = SceneManager.GetActiveScene();

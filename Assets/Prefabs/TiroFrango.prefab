@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5539767698710612096}
   - component: {fileID: -8066743632044190994}
   - component: {fileID: 5575747203420097190}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TiroFrango
   m_TagString: Tiro
   m_Icon: {fileID: 0}
@@ -153,5 +153,5 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.5, y: 0.5}
+  m_Size: {x: 0.4, y: 0.4}
   m_Direction: 0

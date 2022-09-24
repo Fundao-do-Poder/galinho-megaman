@@ -42,11 +42,11 @@ public class MinhocaAcao : MonoBehaviour
 
         if (LevelManager.playerinstance.transform.position.x < transform.position.x)
         {
-            transform.localScale = new Vector3(2, 2, 1);
+            transform.localScale = new Vector3(3, 3, 1);
         }
         else if (LevelManager.playerinstance.transform.position.x > transform.position.x)
         {
-            transform.localScale = new Vector3(-2, 2, 1);
+            transform.localScale = new Vector3(-3, 3, 1);
         }
     }
 }

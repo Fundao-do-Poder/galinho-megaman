@@ -14,9 +14,9 @@ GameObject:
   - component: {fileID: -6405452998197069700}
   - component: {fileID: -253405968805431513}
   - component: {fileID: 4715442882918563567}
-  m_Layer: 2
+  m_Layer: 10
   m_Name: Pombo
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 2891182245606189029}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -160,4 +160,4 @@ CapsuleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -0.005999986}
   m_Size: {x: 0.32, y: 0.12}
-  m_Direction: 0
+  m_Direction: 1

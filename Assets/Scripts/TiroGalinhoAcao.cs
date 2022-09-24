@@ -14,7 +14,13 @@ public class TiroGalinhoAcao : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (transform.position.x < Camera.main.transform.position.x - 8 ||
+            transform.position.x > Camera.main.transform.position.x + 8 ||
+            transform.position.y < Camera.main.transform.position.y - 8 ||
+            transform.position.y > Camera.main.transform.position.y + 8)
+        {
+            Destroy(gameObject);
+        }
     }
 
 }

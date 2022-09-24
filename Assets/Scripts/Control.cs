@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using static UnityEngine.InputSystem.InputAction;
 
 public class Control : MonoBehaviour
@@ -10,9 +11,20 @@ public class Control : MonoBehaviour
     int puloVezes = 1;
     int puloMax = 2; // somar
     bool noChao = false;
+    float tempo_shot = 0;
+    float atirante;
+    float charge_load;
+
+    double atirarStart;
+    double atirarNow;
+    bool atirarFinish;
+    bool atirarPhase;
 
     [SerializeField]
     ParticleSystem fire;
+
+    [SerializeField]
+    ParticleSystem charge;
 
     [SerializeField]
     float forcaPulo = 8f;
@@ -25,6 +37,9 @@ public class Control : MonoBehaviour
 
     [SerializeField]
     GameObject tiroprefab;
+
+    [SerializeField]
+    GameObject explosaoprefab;
 
     void Start()
     {
@@ -57,7 +72,73 @@ public class Control : MonoBehaviour
         {
             animator.SetBool("WALKING", false);
         }
+        tempo_shot++;
 
+        // Verificação de tiro
+        //TiroAction();
+        
+        if (atirante == 1)
+        {
+            if (atirarFinish)
+            {
+                charge.Emit(1);
+                //fire.Emit(1);
+                //var tiro = Instantiate(tiroprefab, new Vector3(transform.position.x + (0.25f * transform.localScale.x), transform.position.y + 0.55f, transform.position.z), Quaternion.identity);
+                //tiro.GetComponent<Rigidbody2D>().AddForce(Vector2.right * 4f, ForceMode2D.Impulse);
+                //tiro.transform.localScale = new Vector3(1, 1, 1);
+                //atirarFinish = false;
+                //atirarFinish = false;
+            }
+            
+        }
+        if (atirarPhase)
+        {
+            if (atirarNow >= atirarStart + 0.5f)
+            {
+                fire.Emit(1);
+                
+
+                animator.SetTrigger("FIRE");
+                if (transform.localScale.x == 1)
+                {
+                    //Instantiate(explosaoprefab, new Vector3(transform.position.x + (0.25f * transform.localScale.x), transform.position.y + 0.55f, transform.position.z), Quaternion.identity);
+                    var tiro = Instantiate(tiroprefab, new Vector3(transform.position.x + (0.25f * transform.localScale.x), transform.position.y + 0.55f, transform.position.z), Quaternion.identity);
+                    tiro.GetComponent<Rigidbody2D>().AddForce(Vector2.right * 4f, ForceMode2D.Impulse);
+                    tiro.transform.localScale = new Vector3(2, 2, 1);
+                }
+                else if (transform.localScale.x == -1)
+                {
+                    //Instantiate(explosaoprefab, new Vector3(transform.position.x + (0.25f * transform.localScale.x), transform.position.y + 0.55f, transform.position.z), Quaternion.identity);
+                    var tiro = Instantiate(tiroprefab, new Vector3(transform.position.x + (0.25f * transform.localScale.x), transform.position.y + 0.55f, transform.position.z), Quaternion.identity);
+                    tiro.GetComponent<Rigidbody2D>().AddForce(Vector2.left * 4f, ForceMode2D.Impulse);
+                    tiro.transform.localScale = new Vector3(2, 2, 1);
+                }
+
+                atirarFinish = false;
+            }
+            else
+            {
+                fire.Emit(1);
+                
+
+                animator.SetTrigger("FIRE");
+                if (transform.localScale.x == 1)
+                {
+                    //Instantiate(explosaoprefab, new Vector3(transform.position.x + (0.25f * transform.localScale.x), transform.position.y + 0.55f, transform.position.z), Quaternion.identity);
+                    var tiro = Instantiate(tiroprefab, new Vector3(transform.position.x + (0.25f * transform.localScale.x), transform.position.y + 0.55f, transform.position.z), Quaternion.identity);
+                    tiro.GetComponent<Rigidbody2D>().AddForce(Vector2.right * 4f, ForceMode2D.Impulse);
+                }
+                else if (transform.localScale.x == -1)
+                {
+                    //Instantiate(explosaoprefab, new Vector3(transform.position.x + (0.25f * transform.localScale.x), transform.position.y + 0.55f, transform.position.z), Quaternion.identity);
+                    var tiro = Instantiate(tiroprefab, new Vector3(transform.position.x + (0.25f * transform.localScale.x), transform.position.y + 0.55f, transform.position.z), Quaternion.identity);
+                    tiro.GetComponent<Rigidbody2D>().AddForce(Vector2.left * 4f, ForceMode2D.Impulse);
+                }
+
+                atirarFinish = false;
+            }
+            atirarPhase = false;
+        }
     }
    
     void FixedUpdate()
@@ -89,21 +170,38 @@ public class Control : MonoBehaviour
 
     public void Atirar(CallbackContext context)
     {
-        if (context.ReadValue<float>() == 1)
-        {
-            animator.SetTrigger("FIRE");
-            if (transform.localScale.x > 0)
-            {
-                var tiro = Instantiate(tiroprefab, new Vector3(transform.position.x + (1 * transform.localScale.x), transform.position.y + 1, transform.position.z), Quaternion.identity);
-                tiro.GetComponent<Rigidbody2D>().AddForce(Vector2.right * 3f, ForceMode2D.Impulse);
-            }
-            if (transform.localScale.x < 0)
-            {
-                var tiro = Instantiate(tiroprefab, new Vector3(transform.position.x + (1 * transform.localScale.x), transform.position.y + 1, transform.position.z), Quaternion.identity);
-                tiro.GetComponent<Rigidbody2D>().AddForce(Vector2.left * 3f, ForceMode2D.Impulse);
-            }
+        atirarStart = context.startTime;
+        atirarNow = context.time;
+        atirarFinish = context.performed;
+        atirarPhase = context.canceled;
 
+        atirante = context.ReadValue<float>();
+
+        Debug.Log(context.phase);
+        //Debug.Log("startTime: " + context.startTime);
+        //Debug.Log("time: " + context.time);
+        /*
+        if (context.ReadValue<float>() == 1 && tempo_shot >= 10)
+        {
+            
+            animator.SetTrigger("FIRE");
+            if (transform.localScale.x == 1)
+            {
+                //Instantiate(explosaoprefab, new Vector3(transform.position.x + (0.25f * transform.localScale.x), transform.position.y + 0.55f, transform.position.z), Quaternion.identity);
+                var tiro = Instantiate(tiroprefab, new Vector3(transform.position.x + (0.25f * transform.localScale.x), transform.position.y + 0.55f, transform.position.z), Quaternion.identity);
+                tiro.GetComponent<Rigidbody2D>().AddForce(Vector2.right * 4f, ForceMode2D.Impulse);
+            }
+            else if (transform.localScale.x == -1)
+            {
+                //Instantiate(explosaoprefab, new Vector3(transform.position.x + (0.25f * transform.localScale.x), transform.position.y + 0.55f, transform.position.z), Quaternion.identity);
+                var tiro = Instantiate(tiroprefab, new Vector3(transform.position.x + (0.25f * transform.localScale.x), transform.position.y + 0.55f, transform.position.z), Quaternion.identity);
+                tiro.GetComponent<Rigidbody2D>().AddForce(Vector2.left * 4f, ForceMode2D.Impulse);
+            }
+            tempo_shot = 0;
+            fire.Emit(1);
+            
         }
+        */
     }
 
     public void Pular(CallbackContext context)
@@ -129,6 +227,67 @@ public class Control : MonoBehaviour
         {
             LevelManager.instance.LowDamage();
             Destroy(collision.gameObject);
+        }
+        if (collision.collider.CompareTag("Enemy"))
+        {
+            Physics2D.IgnoreCollision(collision.gameObject.GetComponent<Collider2D>(), GetComponent<Collider2D>());
+        }
+    }
+
+    private void TiroAction()
+    {
+        if (atirante != 0 && tempo_shot >= 10)
+        {
+            while (atirante != 0)
+            {
+                charge_load++;
+                if (charge_load >= 60)
+                {
+                    charge.Emit(1);
+                }
+            }
+            if (charge_load >= 60)
+            {
+                animator.SetTrigger("FIRE");
+                if (transform.localScale.x == 1)
+                {
+                    //Instantiate(explosaoprefab, new Vector3(transform.position.x + (0.25f * transform.localScale.x), transform.position.y + 0.55f, transform.position.z), Quaternion.identity);
+                    var tiro = Instantiate(tiroprefab, new Vector3(transform.position.x + (0.25f * transform.localScale.x), transform.position.y + 0.55f, transform.position.z), Quaternion.identity);
+                    tiro.GetComponent<Rigidbody2D>().AddForce(Vector2.right * 4f, ForceMode2D.Impulse);
+                    tiro.transform.localScale = new Vector3(4, 4, 1);
+                }
+                else if (transform.localScale.x == -1)
+                {
+                    //Instantiate(explosaoprefab, new Vector3(transform.position.x + (0.25f * transform.localScale.x), transform.position.y + 0.55f, transform.position.z), Quaternion.identity);
+                    var tiro = Instantiate(tiroprefab, new Vector3(transform.position.x + (0.25f * transform.localScale.x), transform.position.y + 0.55f, transform.position.z), Quaternion.identity);
+                    tiro.GetComponent<Rigidbody2D>().AddForce(Vector2.left * 4f, ForceMode2D.Impulse);
+                    tiro.transform.localScale = new Vector3(4, 4, 1);
+                }
+                tempo_shot = 0;
+                fire.Emit(1);
+            }
+            else
+            {
+                animator.SetTrigger("FIRE");
+                if (transform.localScale.x == 1)
+                {
+                    //Instantiate(explosaoprefab, new Vector3(transform.position.x + (0.25f * transform.localScale.x), transform.position.y + 0.55f, transform.position.z), Quaternion.identity);
+                    var tiro = Instantiate(tiroprefab, new Vector3(transform.position.x + (0.25f * transform.localScale.x), transform.position.y + 0.55f, transform.position.z), Quaternion.identity);
+                    tiro.GetComponent<Rigidbody2D>().AddForce(Vector2.right * 4f, ForceMode2D.Impulse);
+                }
+                else if (transform.localScale.x == -1)
+                {
+                    //Instantiate(explosaoprefab, new Vector3(transform.position.x + (0.25f * transform.localScale.x), transform.position.y + 0.55f, transform.position.z), Quaternion.identity);
+                    var tiro = Instantiate(tiroprefab, new Vector3(transform.position.x + (0.25f * transform.localScale.x), transform.position.y + 0.55f, transform.position.z), Quaternion.identity);
+                    tiro.GetComponent<Rigidbody2D>().AddForce(Vector2.left * 4f, ForceMode2D.Impulse);
+                }
+                tempo_shot = 0;
+                fire.Emit(1);
+            }
+        }
+        else
+        {
+            charge_load = 0;
         }
     }
 }

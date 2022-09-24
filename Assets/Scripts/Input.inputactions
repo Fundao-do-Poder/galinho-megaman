@@ -29,7 +29,7 @@
                     "id": "7c4d08d1-9e11-4c2b-9c61-50075adb3d58",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": "",
+                    "interactions": "Hold",
                     "initialStateCheck": false
                 },
                 {
@@ -187,37 +187,59 @@
                     "isPartOfComposite": true
                 },
                 {
-                    "name": "",
-                    "id": "57b036b8-68af-45c0-bf62-4a3eaf220c07",
+                    "name": "Mouse",
+                    "id": "c0f13aa7-a5d6-48bf-ba0d-04616c6dde4f",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Tiro",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "positive",
+                    "id": "e6d9f351-5a29-422f-bf01-a5ade94b00df",
                     "path": "<Mouse>/leftButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "Tiro",
                     "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Teclado",
+                    "id": "8986789e-7231-4401-8b3a-ca3b38791403",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Tiro",
+                    "isComposite": true,
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "",
-                    "id": "ea05ac41-ab69-4c2b-b82a-a66fb19f9838",
+                    "name": "positive",
+                    "id": "9c61b4b3-0876-4f2f-9c83-695f75a84594",
                     "path": "<Keyboard>/z",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "Tiro",
                     "isComposite": false,
-                    "isPartOfComposite": false
+                    "isPartOfComposite": true
                 },
                 {
-                    "name": "",
-                    "id": "66cd06cd-2238-4960-a85e-c08b23f632d1",
+                    "name": "positive",
+                    "id": "787dff09-a2fa-492b-8ccf-a3e3138fee2f",
                     "path": "<Keyboard>/leftCtrl",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "Tiro",
                     "isComposite": false,
-                    "isPartOfComposite": false
+                    "isPartOfComposite": true
                 },
                 {
                     "name": "",
@@ -256,6 +278,17 @@
                     "name": "",
                     "id": "68cd56e1-0b6e-4b12-9906-5e333e607a45",
                     "path": "<Keyboard>/ctrl",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Enter",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "776baacc-a072-47b7-adc3-7c659cb4675b",
+                    "path": "<Mouse>/leftButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",

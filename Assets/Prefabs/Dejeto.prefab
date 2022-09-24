@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 4306975168614700152}
   - component: {fileID: 1920524976833631649}
   - component: {fileID: 6325108500113222540}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Dejeto
   m_TagString: Damage
   m_Icon: {fileID: 0}

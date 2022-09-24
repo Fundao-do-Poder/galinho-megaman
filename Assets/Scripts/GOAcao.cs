@@ -58,6 +58,14 @@ public class GOAcao : MonoBehaviour
         //if (GO_sel > 2) { GO_sel = 1; }
         //if (GO_sel < 1) { GO_sel = 2; }
         //Mathf.Clamp(GO_sel, 1, 2);
+        //if (Mouse.current.leftButton.wasPressedThisFrame)
+        //{
+        //    if (ovo_timer == 0)
+        //    {
+        //        ovo_timer = 1;
+        //        GO_sel_final = GO_sel;
+        //    }
+        //}
         if (ovo_timer == 0)
         {
             if (GO_sel == 1)
@@ -88,7 +96,7 @@ public class GOAcao : MonoBehaviour
             if (GO_sel_final == 1)
             {
                 var ovo = getChildGameObject(gameObject, "Ovo");
-                const int ADD = 6;
+                const int ADD = 5;
                 switch (ovo_timer)
                 {
                     case 4 * ADD:
@@ -171,7 +179,7 @@ public class GOAcao : MonoBehaviour
 
                     case 64 * ADD:
 
-                        SceneManager.LoadScene("Level1");
+                        SceneManager.LoadScene(LevelManager.instance.scene_atual);
                         break;
                 }
             }

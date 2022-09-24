@@ -25,6 +25,8 @@ public class PomboAcao : MonoBehaviour
     {
         instance = this;
         rdb.AddForce(Vector2.left * 1f, ForceMode2D.Impulse);
+        Physics2D.IgnoreCollision(target.GetComponent<Collider2D>(), GetComponent<Collider2D>());
+        //Debug.Log(target.name);
     }
 
     // Update is called once per frame
@@ -53,11 +55,11 @@ public class PomboAcao : MonoBehaviour
                 transform.position = pos;
                 if (pos.x < target.transform.position.x)
                 {
-                    transform.localScale = new Vector3(-1, 1, 1);
+                    transform.localScale = new Vector3(-1.5f, 1.5f, 1);
                 }
                 else if (pos.x > target.transform.position.x)
                 {
-                    transform.localScale = new Vector3(1, 1, 1);
+                    transform.localScale = new Vector3(1.5f, 1.5f, 1);
                 }
                 if (tempo == 60 * 6)
                 {
@@ -79,10 +81,10 @@ public class PomboAcao : MonoBehaviour
         }
         if (rdb.velocity.x > 0f)
         {
-            transform.localScale = new Vector3(-1, 1, 1);
+            transform.localScale = new Vector3(-1.5f, 1.5f, 1);
         } else if (rdb.velocity.x < 0f)
         {
-            transform.localScale = new Vector3(1, 1, 1);
+            transform.localScale = new Vector3(1.5f, 1.5f, 1);
         }
 
         if (life <= 0)
@@ -98,6 +100,13 @@ public class PomboAcao : MonoBehaviour
         if (collision.collider.CompareTag("Tiro"))
         {
             life--;
+            Destroy(collision.gameObject);
+            for (int i = 0; i<3; i++)
+            {
+                var exp = Instantiate(explosaoprefab, new Vector3(transform.position.x + Random.Range(-0.25f, 0.25f), transform.position.y + Random.Range(-0.25f, 0.25f), transform.position.z), Quaternion.identity);
+                exp.gameObject.transform.localScale = new Vector3(2.5f, 2.5f, 1);
+            }
+            
         }
     }
 }
