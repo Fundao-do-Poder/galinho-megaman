@@ -60,6 +60,22 @@ public class AreaMinhoca : MonoBehaviour
             {
                 frames = 0;
             }
+
+            if (collision.gameObject.GetComponent<Animator>().GetBool("GROUNDED"))
+            {
+                var player = LevelManager.playerinstance;
+                var position_new = new Vector3(player.transform.position.x + Random.Range(-2f, 2f), player.transform.position.y, 1);
+                Collider2D hit = Physics2D.OverlapCircle(position_new, 0.03f, layerMask);
+                if (hit != null)
+                {
+                    if (hit.CompareTag("Chao"))
+                    {
+                        Instantiate(minhocaavisoprefab, position_new, Quaternion.identity);
+                        Debug.Log("minhoca");
+                    }
+                }
+            }
+
         }
     }
 }

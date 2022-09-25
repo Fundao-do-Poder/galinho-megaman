@@ -42,7 +42,27 @@ public class MyCamera : MonoBehaviour {
                 transform.position = pos;
             }
 
-            
+            if (LevelManager.instance.scene_atual == "Fase_2")
+            {
+                var pos = transform.position;
+                pos.x = Mathf.Clamp(transform.position.x, -7f, 170f);
+                transform.position = pos;
+            }
+
+            if (LevelManager.instance.scene_atual == "Fase_2_5")
+            {
+                transform.position = new Vector3(0f, -16.24f, transform.position.z);
+            }
+
+            if (LevelManager.instance.scene_atual == "Fase_3")
+            {
+                var pos = transform.position;
+                pos.x = Mathf.Clamp(transform.position.x, -6f, 168f);
+                transform.position = pos;
+            }
+
+
+
 
             /*
             if (target.transform.position.y > -19f)

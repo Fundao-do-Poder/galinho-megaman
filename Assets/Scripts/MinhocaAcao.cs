@@ -70,7 +70,7 @@ public class MinhocaAcao : MonoBehaviour
     {
         if (collision.collider.CompareTag("Tiro"))
         {
-            life--;
+            Destroy(gameObject);
             Destroy(collision.gameObject);
             for (int i = 0; i < 3; i++)
             {
