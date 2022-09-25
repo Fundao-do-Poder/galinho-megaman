@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1920524976833631649}
   - component: {fileID: 6325108500113222540}
   - component: {fileID: 8856979361423219248}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: DejetoMinhoca
   m_TagString: Damage
   m_Icon: {fileID: 0}

@@ -270,7 +270,7 @@ public class GOAcao : MonoBehaviour
 
                     case 64 * ADD:
 
-                        SceneManager.LoadScene("Menu");
+                        SceneManager.LoadScene("Titulo");
                         break;
                 }
             }

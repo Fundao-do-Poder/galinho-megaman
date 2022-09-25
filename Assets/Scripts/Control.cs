@@ -14,6 +14,8 @@ public class Control : MonoBehaviour
     float tempo_shot = 0;
     float atirante;
     float charge_load;
+    float tempo_vivo = 0;
+    float tempo_vivo_t = 120;
 
     double atirarStart;
     double atirarNow;
@@ -25,6 +27,9 @@ public class Control : MonoBehaviour
 
     [SerializeField]
     ParticleSystem charge;
+
+    [SerializeField]
+    ParticleSystem dano;
 
     [SerializeField]
     float forcaPulo = 8f;
@@ -59,6 +64,8 @@ public class Control : MonoBehaviour
 
     void Update()
     {
+        tempo_vivo++;
+        //Debug.Log(tempo_vivo);
         Vector2 velAtual = rigidbody.velocity;
         velAtual.x = 2f * sentido;
         rigidbody.velocity = velAtual;
@@ -170,14 +177,18 @@ public class Control : MonoBehaviour
 
     public void Atirar(CallbackContext context)
     {
-        atirarStart = context.startTime;
-        atirarNow = context.time;
-        atirarFinish = context.performed;
-        atirarPhase = context.canceled;
+        if (tempo_vivo >= tempo_vivo_t)
+        {
+            atirarStart = context.startTime;
+            atirarNow = context.time;
+            atirarFinish = context.performed;
+            atirarPhase = context.canceled;
 
-        atirante = context.ReadValue<float>();
+            atirante = context.ReadValue<float>();
+        }
 
-        Debug.Log(context.phase);
+        //Debug.Log(context.phase);
+
         //Debug.Log("startTime: " + context.startTime);
         //Debug.Log("time: " + context.time);
         /*
@@ -206,7 +217,7 @@ public class Control : MonoBehaviour
 
     public void Pular(CallbackContext context)
     {
-        if (context.ReadValue<float>() == 1 && puloVezes <= puloMax)
+        if (context.ReadValue<float>() == 1 && puloVezes <= puloMax && tempo_vivo >= tempo_vivo_t)
         {
             rigidbody.velocity = Vector3.zero;
             rigidbody.AddForce(new Vector2(0, forcaPulo), ForceMode2D.Impulse);
@@ -218,7 +229,10 @@ public class Control : MonoBehaviour
 
     public void Sentido(CallbackContext context)
     {
-        sentido = context.ReadValue<float>();
+        if (tempo_vivo >= tempo_vivo_t)
+        {
+            sentido = context.ReadValue<float>();
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -226,7 +240,19 @@ public class Control : MonoBehaviour
         if (collision.collider.CompareTag("Damage"))
         {
             LevelManager.instance.LowDamage();
+            if (animator.GetBool("GROUNDED"))
+            {
+                if (collision.gameObject.transform.position.x < transform.position.x)
+                {
+                    rigidbody.AddForce(new Vector2(16, 3), ForceMode2D.Force);
+                }
+                else
+                {
+                    rigidbody.AddForce(new Vector2(-16, 3), ForceMode2D.Force);
+                }
+            }
             Destroy(collision.gameObject);
+            dano.Emit(30);
         }
         if (collision.collider.CompareTag("Enemy"))
         {

@@ -13,10 +13,7 @@ public class BackgroundAcao : MonoBehaviour
     // Update is called once per frame
     void LateUpdate()
     {
-            transform.position = Vector3.Lerp(transform.position,
-                new Vector3(LevelManager.playerinstance.transform.position.x
-                , transform.position.y
-                , transform.position.z), Time.smoothDeltaTime);  
+        transform.position = new Vector3(Camera.main.transform.position.x, Camera.main.transform.position.y, transform.position.z);
     }
 
 }

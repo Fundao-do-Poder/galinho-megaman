@@ -15,11 +15,11 @@ C:/Users/Thierry/Documents/galinho-megaman
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52407
+50415
 Successfully changed project path to: C:/Users/Thierry/Documents/galinho-megaman
 C:/Users/Thierry/Documents/galinho-megaman
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 138.83 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 112.50 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.32f1 (12f8b0834f07)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/Resources/UnitySubsystems
@@ -35,89 +35,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56964
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56656
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002455 seconds.
+Registered in 0.002233 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 105.60 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 107.75 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.873 seconds
+- Completed reload, in  0.847 seconds
 Domain Reload Profiling:
-	ReloadAssembly (873ms)
-		BeginReloadAssembly (86ms)
+	ReloadAssembly (847ms)
+		BeginReloadAssembly (74ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (673ms)
-			LoadAssemblies (83ms)
+		EndReloadAssembly (692ms)
+			LoadAssemblies (70ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (199ms)
+			SetupTypeCache (269ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (275ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (253ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (106ms)
-				BeforeProcessingInitializeOnLoad (32ms)
-				ProcessInitializeOnLoadAttributes (99ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
+				RefreshPlugins (108ms)
+				BeforeProcessingInitializeOnLoad (17ms)
+				ProcessInitializeOnLoadAttributes (89ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.012027 seconds.
+Registered in 0.011665 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 127.12 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 91.51 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.941 seconds
+- Completed reload, in  1.718 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1942ms)
-		BeginReloadAssembly (198ms)
+	ReloadAssembly (1720ms)
+		BeginReloadAssembly (158ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (39ms)
-		EndReloadAssembly (1657ms)
-			LoadAssemblies (188ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (1495ms)
+			LoadAssemblies (125ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (504ms)
-			ReleaseScriptCaches (6ms)
-			RebuildScriptCaches (81ms)
-			SetupLoadedEditorAssemblies (724ms)
+			SetupTypeCache (409ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (765ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (127ms)
-				BeforeProcessingInitializeOnLoad (147ms)
-				ProcessInitializeOnLoadAttributes (344ms)
-				ProcessInitializeOnLoadMethodAttributes (94ms)
+				RefreshPlugins (92ms)
+				BeforeProcessingInitializeOnLoad (222ms)
+				ProcessInitializeOnLoadAttributes (358ms)
+				ProcessInitializeOnLoadMethodAttributes (82ms)
 				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.21 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 173.1 MB.
-System memory in use after: 173.3 MB.
+Unloading 4117 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 244.9 MB.
+System memory in use after: 245.1 MB.
 
-Unloading 68 unused Assets to reduce memory usage. Loaded Objects now: 4546.
-Total: 12.431700 ms (FindLiveObjects: 0.353700 ms CreateObjectMapping: 0.223100 ms MarkObjects: 11.752200 ms  DeleteObjects: 0.101700 ms)
+Unloading 68 unused Assets to reduce memory usage. Loaded Objects now: 4551.
+Total: 9.429600 ms (FindLiveObjects: 0.514600 ms CreateObjectMapping: 0.396200 ms MarkObjects: 8.402300 ms  DeleteObjects: 0.115000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,12 +131,3219 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Prefabs/PlayerMM.prefab
-  artifactKey: Guid(d42a24c9cbd336e46aa519ab65fd03d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/PlayerMM.prefab using Guid(d42a24c9cbd336e46aa519ab65fd03d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd7bd71ec9a8378a5a84308e8d9881a7') in 0.355507 seconds 
+  path: Assets/Prefabs/Minhoca.prefab
+  artifactKey: Guid(addc26dc73e8a5e409c4255afec005a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Minhoca.prefab using Guid(addc26dc73e8a5e409c4255afec005a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b73322d7ff1bbbf2c467f54884ddba59') in 0.265096 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010422 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of FusionRoot couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ScriptableObject:CreateInstance (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs line 294]
+
+[ERROR; KS.SceneFusion.sfPaths] Error detecting Scene Fusion folder: Unable to load script FusionRoot. Setting Scene Fusion folder to Assets/KinematicSoup/SceneFusion/
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,object,int,int)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,System.Exception,object)
+KS.Reactor.ksLog:HandleLog (string,string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Log<string> (string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Error<string> (string,string)
+KS.SceneFusion.sfPaths:UseDefaultFusionFolder (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs Line: 294)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.508 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1508ms)
+		BeginReloadAssembly (180ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (1254ms)
+			LoadAssemblies (147ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (433ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (481ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (120ms)
+				ProcessInitializeOnLoadAttributes (270ms)
+				ProcessInitializeOnLoadMethodAttributes (76ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3973 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 239.8 MB.
+System memory in use after: 240.1 MB.
+
+Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 4599.
+Total: 7.658500 ms (FindLiveObjects: 0.341000 ms CreateObjectMapping: 0.310300 ms MarkObjects: 6.943700 ms  DeleteObjects: 0.062500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012445 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of FusionRoot couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ScriptableObject:CreateInstance (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs line 294]
+
+[ERROR; KS.SceneFusion.sfPaths] Error detecting Scene Fusion folder: Unable to load script FusionRoot. Setting Scene Fusion folder to Assets/KinematicSoup/SceneFusion/
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,object,int,int)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,System.Exception,object)
+KS.Reactor.ksLog:HandleLog (string,string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Log<string> (string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Error<string> (string,string)
+KS.SceneFusion.sfPaths:UseDefaultFusionFolder (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs Line: 294)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.439 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1439ms)
+		BeginReloadAssembly (144ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (1231ms)
+			LoadAssemblies (124ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (435ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (494ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (281ms)
+				ProcessInitializeOnLoadMethodAttributes (82ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3973 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 239.9 MB.
+System memory in use after: 240.2 MB.
+
+Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 4602.
+Total: 7.274400 ms (FindLiveObjects: 0.463600 ms CreateObjectMapping: 0.222000 ms MarkObjects: 6.539100 ms  DeleteObjects: 0.048900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018601 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of FusionRoot couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ScriptableObject:CreateInstance (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs line 294]
+
+[ERROR; KS.SceneFusion.sfPaths] Error detecting Scene Fusion folder: Unable to load script FusionRoot. Setting Scene Fusion folder to Assets/KinematicSoup/SceneFusion/
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,object,int,int)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,System.Exception,object)
+KS.Reactor.ksLog:HandleLog (string,string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Log<string> (string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Error<string> (string,string)
+KS.SceneFusion.sfPaths:UseDefaultFusionFolder (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs Line: 294)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.482 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1483ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1269ms)
+			LoadAssemblies (124ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (361ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (578ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (132ms)
+				ProcessInitializeOnLoadAttributes (281ms)
+				ProcessInitializeOnLoadMethodAttributes (149ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3973 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 239.9 MB.
+System memory in use after: 240.2 MB.
+
+Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 4605.
+Total: 11.150800 ms (FindLiveObjects: 0.390300 ms CreateObjectMapping: 0.595100 ms MarkObjects: 10.106500 ms  DeleteObjects: 0.057500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009504 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of FusionRoot couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ScriptableObject:CreateInstance (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs line 294]
+
+[ERROR; KS.SceneFusion.sfPaths] Error detecting Scene Fusion folder: Unable to load script FusionRoot. Setting Scene Fusion folder to Assets/KinematicSoup/SceneFusion/
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,object,int,int)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,System.Exception,object)
+KS.Reactor.ksLog:HandleLog (string,string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Log<string> (string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Error<string> (string,string)
+KS.SceneFusion.sfPaths:UseDefaultFusionFolder (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs Line: 294)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.417 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1418ms)
+		BeginReloadAssembly (162ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (1120ms)
+			LoadAssemblies (153ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (353ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (434ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (107ms)
+				ProcessInitializeOnLoadAttributes (245ms)
+				ProcessInitializeOnLoadMethodAttributes (69ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.16 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3973 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 240.0 MB.
+System memory in use after: 240.2 MB.
+
+Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 4608.
+Total: 8.529700 ms (FindLiveObjects: 0.656400 ms CreateObjectMapping: 0.256200 ms MarkObjects: 7.553700 ms  DeleteObjects: 0.060800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009519 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of FusionRoot couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ScriptableObject:CreateInstance (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs line 294]
+
+[ERROR; KS.SceneFusion.sfPaths] Error detecting Scene Fusion folder: Unable to load script FusionRoot. Setting Scene Fusion folder to Assets/KinematicSoup/SceneFusion/
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,object,int,int)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,System.Exception,object)
+KS.Reactor.ksLog:HandleLog (string,string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Log<string> (string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Error<string> (string,string)
+KS.SceneFusion.sfPaths:UseDefaultFusionFolder (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs Line: 294)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.305 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1306ms)
+		BeginReloadAssembly (132ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1103ms)
+			LoadAssemblies (137ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (359ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (432ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (243ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3973 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 240.0 MB.
+System memory in use after: 240.2 MB.
+
+Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 4611.
+Total: 7.700800 ms (FindLiveObjects: 0.346200 ms CreateObjectMapping: 0.188800 ms MarkObjects: 7.115700 ms  DeleteObjects: 0.049000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009876 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.16 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of FusionRoot couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ScriptableObject:CreateInstance (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs line 294]
+
+[ERROR; KS.SceneFusion.sfPaths] Error detecting Scene Fusion folder: Unable to load script FusionRoot. Setting Scene Fusion folder to Assets/KinematicSoup/SceneFusion/
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,object,int,int)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,System.Exception,object)
+KS.Reactor.ksLog:HandleLog (string,string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Log<string> (string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Error<string> (string,string)
+KS.SceneFusion.sfPaths:UseDefaultFusionFolder (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs Line: 294)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.354 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1355ms)
+		BeginReloadAssembly (139ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1150ms)
+			LoadAssemblies (128ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (371ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (460ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (260ms)
+				ProcessInitializeOnLoadMethodAttributes (75ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3973 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 240.0 MB.
+System memory in use after: 240.3 MB.
+
+Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 4614.
+Total: 7.913500 ms (FindLiveObjects: 0.358300 ms CreateObjectMapping: 0.231000 ms MarkObjects: 7.279800 ms  DeleteObjects: 0.042900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011932 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of FusionRoot couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ScriptableObject:CreateInstance (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs line 294]
+
+[ERROR; KS.SceneFusion.sfPaths] Error detecting Scene Fusion folder: Unable to load script FusionRoot. Setting Scene Fusion folder to Assets/KinematicSoup/SceneFusion/
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,object,int,int)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,System.Exception,object)
+KS.Reactor.ksLog:HandleLog (string,string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Log<string> (string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Error<string> (string,string)
+KS.SceneFusion.sfPaths:UseDefaultFusionFolder (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs Line: 294)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.419 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1419ms)
+		BeginReloadAssembly (128ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1208ms)
+			LoadAssemblies (133ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (423ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (454ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (114ms)
+				ProcessInitializeOnLoadAttributes (253ms)
+				ProcessInitializeOnLoadMethodAttributes (74ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3973 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 240.0 MB.
+System memory in use after: 240.3 MB.
+
+Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 4617.
+Total: 9.895300 ms (FindLiveObjects: 1.028900 ms CreateObjectMapping: 0.457000 ms MarkObjects: 8.336200 ms  DeleteObjects: 0.071100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011413 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.16 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of FusionRoot couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ScriptableObject:CreateInstance (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs line 294]
+
+[ERROR; KS.SceneFusion.sfPaths] Error detecting Scene Fusion folder: Unable to load script FusionRoot. Setting Scene Fusion folder to Assets/KinematicSoup/SceneFusion/
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,object,int,int)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,System.Exception,object)
+KS.Reactor.ksLog:HandleLog (string,string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Log<string> (string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Error<string> (string,string)
+KS.SceneFusion.sfPaths:UseDefaultFusionFolder (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs Line: 294)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.397 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1398ms)
+		BeginReloadAssembly (152ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (1179ms)
+			LoadAssemblies (133ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (380ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (482ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (119ms)
+				ProcessInitializeOnLoadAttributes (278ms)
+				ProcessInitializeOnLoadMethodAttributes (72ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.11 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3973 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 240.0 MB.
+System memory in use after: 240.3 MB.
+
+Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 4620.
+Total: 7.771800 ms (FindLiveObjects: 0.361400 ms CreateObjectMapping: 0.201200 ms MarkObjects: 7.143800 ms  DeleteObjects: 0.062900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.020546 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of FusionRoot couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ScriptableObject:CreateInstance (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs line 294]
+
+[ERROR; KS.SceneFusion.sfPaths] Error detecting Scene Fusion folder: Unable to load script FusionRoot. Setting Scene Fusion folder to Assets/KinematicSoup/SceneFusion/
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,object,int,int)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,System.Exception,object)
+KS.Reactor.ksLog:HandleLog (string,string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Log<string> (string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Error<string> (string,string)
+KS.SceneFusion.sfPaths:UseDefaultFusionFolder (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs Line: 294)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  4.716 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4717ms)
+		BeginReloadAssembly (282ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (22ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (4037ms)
+			LoadAssemblies (315ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1383ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (115ms)
+			SetupLoadedEditorAssemblies (1886ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (205ms)
+				ProcessInitializeOnLoadAttributes (1075ms)
+				ProcessInitializeOnLoadMethodAttributes (587ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3973 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 240.0 MB.
+System memory in use after: 240.3 MB.
+
+Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 4623.
+Total: 16.427500 ms (FindLiveObjects: 0.399200 ms CreateObjectMapping: 0.320000 ms MarkObjects: 15.650600 ms  DeleteObjects: 0.056000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.595834 seconds.
-  path: Assets/Scripts/Input.inputactions
-  artifactKey: Guid(0ad1065f871543d47ac39bc7afcf49eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Input.inputactions using Guid(0ad1065f871543d47ac39bc7afcf49eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9005d42c520720ddc6d6c6924ff99649') in 0.013889 seconds 
+  Time since last request: 1041.104094 seconds.
+  path: Assets/Prefabs/MinhocaAviso.prefab
+  artifactKey: Guid(17251d3ff3f0c7844873eddbf6622071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MinhocaAviso.prefab using Guid(17251d3ff3f0c7844873eddbf6622071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a74b349d9245ee15623fd12705d71de') in 0.281727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.912932 seconds.
+  path: Assets/Prefabs/MinhocaAviso.prefab
+  artifactKey: Guid(17251d3ff3f0c7844873eddbf6622071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MinhocaAviso.prefab using Guid(17251d3ff3f0c7844873eddbf6622071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc236be76a7a95497082263d747983ea') in 0.038286 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009374 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of FusionRoot couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ScriptableObject:CreateInstance (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs line 294]
+
+[ERROR; KS.SceneFusion.sfPaths] Error detecting Scene Fusion folder: Unable to load script FusionRoot. Setting Scene Fusion folder to Assets/KinematicSoup/SceneFusion/
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,object,int,int)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,System.Exception,object)
+KS.Reactor.ksLog:HandleLog (string,string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Log<string> (string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Error<string> (string,string)
+KS.SceneFusion.sfPaths:UseDefaultFusionFolder (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs Line: 294)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.493 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1493ms)
+		BeginReloadAssembly (308ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (171ms)
+		EndReloadAssembly (1120ms)
+			LoadAssemblies (128ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (373ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (446ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (109ms)
+				ProcessInitializeOnLoadAttributes (250ms)
+				ProcessInitializeOnLoadMethodAttributes (74ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.23 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3973 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 240.2 MB.
+System memory in use after: 240.4 MB.
+
+Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 4662.
+Total: 7.787100 ms (FindLiveObjects: 0.374700 ms CreateObjectMapping: 0.225600 ms MarkObjects: 7.122400 ms  DeleteObjects: 0.063000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010034 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of FusionRoot couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ScriptableObject:CreateInstance (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs line 294]
+
+[ERROR; KS.SceneFusion.sfPaths] Error detecting Scene Fusion folder: Unable to load script FusionRoot. Setting Scene Fusion folder to Assets/KinematicSoup/SceneFusion/
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,object,int,int)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,System.Exception,object)
+KS.Reactor.ksLog:HandleLog (string,string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Log<string> (string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Error<string> (string,string)
+KS.SceneFusion.sfPaths:UseDefaultFusionFolder (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs Line: 294)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.350 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1351ms)
+		BeginReloadAssembly (155ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (1126ms)
+			LoadAssemblies (137ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (369ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (436ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (105ms)
+				ProcessInitializeOnLoadAttributes (245ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3973 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 240.2 MB.
+System memory in use after: 240.4 MB.
+
+Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 4665.
+Total: 8.308800 ms (FindLiveObjects: 0.355800 ms CreateObjectMapping: 0.257000 ms MarkObjects: 7.626600 ms  DeleteObjects: 0.067500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 248.009923 seconds.
+  path: Assets/Prefabs/TiroFrango.prefab
+  artifactKey: Guid(c8b4b5b2fa48aec49b1b08134db1cb59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TiroFrango.prefab using Guid(c8b4b5b2fa48aec49b1b08134db1cb59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58c4762c757974a6af4f833e29a0e405') in 0.188205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 73.540295 seconds.
+  path: Assets/AnimCharacter/Minhoca/Minhoca.controller
+  artifactKey: Guid(66321059f3dc7f447a34692fbc00db03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimCharacter/Minhoca/Minhoca.controller using Guid(66321059f3dc7f447a34692fbc00db03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee96814bd802fbad7f2d176e1bc5d40') in 0.013695 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014859 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of FusionRoot couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ScriptableObject:CreateInstance (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs line 294]
+
+[ERROR; KS.SceneFusion.sfPaths] Error detecting Scene Fusion folder: Unable to load script FusionRoot. Setting Scene Fusion folder to Assets/KinematicSoup/SceneFusion/
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,object,int,int)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,System.Exception,object)
+KS.Reactor.ksLog:HandleLog (string,string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Log<string> (string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Error<string> (string,string)
+KS.SceneFusion.sfPaths:UseDefaultFusionFolder (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs Line: 294)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.832 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1833ms)
+		BeginReloadAssembly (185ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (66ms)
+		EndReloadAssembly (1567ms)
+			LoadAssemblies (173ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (504ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (638ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (151ms)
+				ProcessInitializeOnLoadAttributes (363ms)
+				ProcessInitializeOnLoadMethodAttributes (108ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3973 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 240.3 MB.
+System memory in use after: 240.6 MB.
+
+Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 4704.
+Total: 10.866400 ms (FindLiveObjects: 0.591300 ms CreateObjectMapping: 0.896700 ms MarkObjects: 9.221200 ms  DeleteObjects: 0.155200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 68.455607 seconds.
+  path: Assets/AnimCharacter/Minhoca/MinhocaIdle.anim
+  artifactKey: Guid(83623b03713b17441a9aa131bbedc786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimCharacter/Minhoca/MinhocaIdle.anim using Guid(83623b03713b17441a9aa131bbedc786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '859e61f30f9b44125925ea24de97fb0c') in 0.033816 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009812 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.23 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of FusionRoot couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ScriptableObject:CreateInstance (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs line 294]
+
+[ERROR; KS.SceneFusion.sfPaths] Error detecting Scene Fusion folder: Unable to load script FusionRoot. Setting Scene Fusion folder to Assets/KinematicSoup/SceneFusion/
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,object,int,int)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,System.Exception,object)
+KS.Reactor.ksLog:HandleLog (string,string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Log<string> (string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Error<string> (string,string)
+KS.SceneFusion.sfPaths:UseDefaultFusionFolder (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs Line: 294)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.313 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1314ms)
+		BeginReloadAssembly (129ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1120ms)
+			LoadAssemblies (115ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (378ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (438ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (250ms)
+				ProcessInitializeOnLoadMethodAttributes (71ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3973 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 240.3 MB.
+System memory in use after: 240.6 MB.
+
+Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 4707.
+Total: 7.377400 ms (FindLiveObjects: 0.503100 ms CreateObjectMapping: 0.260200 ms MarkObjects: 6.569100 ms  DeleteObjects: 0.043400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010290 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of FusionRoot couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ScriptableObject:CreateInstance (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs line 294]
+
+[ERROR; KS.SceneFusion.sfPaths] Error detecting Scene Fusion folder: Unable to load script FusionRoot. Setting Scene Fusion folder to Assets/KinematicSoup/SceneFusion/
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,object,int,int)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,System.Exception,object)
+KS.Reactor.ksLog:HandleLog (string,string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Log<string> (string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Error<string> (string,string)
+KS.SceneFusion.sfPaths:UseDefaultFusionFolder (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs Line: 294)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.329 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1329ms)
+		BeginReloadAssembly (131ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1129ms)
+			LoadAssemblies (117ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (365ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (461ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (114ms)
+				ProcessInitializeOnLoadAttributes (250ms)
+				ProcessInitializeOnLoadMethodAttributes (83ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3973 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 240.3 MB.
+System memory in use after: 240.6 MB.
+
+Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 4710.
+Total: 8.095900 ms (FindLiveObjects: 0.367400 ms CreateObjectMapping: 0.221600 ms MarkObjects: 7.455800 ms  DeleteObjects: 0.049900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 162.403869 seconds.
+  path: Assets/Prefabs/DejetoMinhoca.prefab
+  artifactKey: Guid(4b2246c48810b874db9c601f8c29d610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/DejetoMinhoca.prefab using Guid(4b2246c48810b874db9c601f8c29d610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78a9fc3bd8a4d2d6c29fedbb08be892f') in 0.167617 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009281 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of FusionRoot couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ScriptableObject:CreateInstance (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs line 294]
+
+[ERROR; KS.SceneFusion.sfPaths] Error detecting Scene Fusion folder: Unable to load script FusionRoot. Setting Scene Fusion folder to Assets/KinematicSoup/SceneFusion/
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,object,int,int)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,System.Exception,object)
+KS.Reactor.ksLog:HandleLog (string,string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Log<string> (string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Error<string> (string,string)
+KS.SceneFusion.sfPaths:UseDefaultFusionFolder (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs Line: 294)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.273 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1273ms)
+		BeginReloadAssembly (130ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1080ms)
+			LoadAssemblies (117ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (351ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (431ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (242ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3973 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 240.5 MB.
+System memory in use after: 240.7 MB.
+
+Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 4749.
+Total: 7.268100 ms (FindLiveObjects: 0.364600 ms CreateObjectMapping: 0.198500 ms MarkObjects: 6.656400 ms  DeleteObjects: 0.047500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010486 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.08 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of FusionRoot couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ScriptableObject:CreateInstance (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs line 294]
+
+[ERROR; KS.SceneFusion.sfPaths] Error detecting Scene Fusion folder: Unable to load script FusionRoot. Setting Scene Fusion folder to Assets/KinematicSoup/SceneFusion/
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,object,int,int)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,System.Exception,object)
+KS.Reactor.ksLog:HandleLog (string,string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Log<string> (string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Error<string> (string,string)
+KS.SceneFusion.sfPaths:UseDefaultFusionFolder (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs Line: 294)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.375 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1376ms)
+		BeginReloadAssembly (138ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1168ms)
+			LoadAssemblies (124ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (379ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (474ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (259ms)
+				ProcessInitializeOnLoadMethodAttributes (83ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3973 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 240.5 MB.
+System memory in use after: 240.7 MB.
+
+Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 4752.
+Total: 8.087700 ms (FindLiveObjects: 1.019500 ms CreateObjectMapping: 0.329500 ms MarkObjects: 6.694200 ms  DeleteObjects: 0.043300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 57.757671 seconds.
+  path: Assets/AnimCharacter/Minhoca/Minhoca.controller
+  artifactKey: Guid(66321059f3dc7f447a34692fbc00db03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimCharacter/Minhoca/Minhoca.controller using Guid(66321059f3dc7f447a34692fbc00db03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51964ed660e5eb87067edbbf38cbe66b') in 0.022392 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010312 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of FusionRoot couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ScriptableObject:CreateInstance (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs line 294]
+
+[ERROR; KS.SceneFusion.sfPaths] Error detecting Scene Fusion folder: Unable to load script FusionRoot. Setting Scene Fusion folder to Assets/KinematicSoup/SceneFusion/
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,object,int,int)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,System.Exception,object)
+KS.Reactor.ksLog:HandleLog (string,string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Log<string> (string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Error<string> (string,string)
+KS.SceneFusion.sfPaths:UseDefaultFusionFolder (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs Line: 294)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.292 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1293ms)
+		BeginReloadAssembly (138ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1092ms)
+			LoadAssemblies (124ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (358ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (434ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (107ms)
+				ProcessInitializeOnLoadAttributes (246ms)
+				ProcessInitializeOnLoadMethodAttributes (68ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3973 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 240.5 MB.
+System memory in use after: 240.7 MB.
+
+Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 4755.
+Total: 7.672500 ms (FindLiveObjects: 0.413200 ms CreateObjectMapping: 0.223300 ms MarkObjects: 6.990500 ms  DeleteObjects: 0.044300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013223 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of FusionRoot couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ScriptableObject:CreateInstance (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs line 294]
+
+[ERROR; KS.SceneFusion.sfPaths] Error detecting Scene Fusion folder: Unable to load script FusionRoot. Setting Scene Fusion folder to Assets/KinematicSoup/SceneFusion/
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,object,int,int)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,System.Exception,object)
+KS.Reactor.ksLog:HandleLog (string,string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Log<string> (string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Error<string> (string,string)
+KS.SceneFusion.sfPaths:UseDefaultFusionFolder (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs Line: 294)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.958 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1959ms)
+		BeginReloadAssembly (156ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (1609ms)
+			LoadAssemblies (226ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (483ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (652ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (134ms)
+				ProcessInitializeOnLoadAttributes (410ms)
+				ProcessInitializeOnLoadMethodAttributes (92ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3973 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 240.5 MB.
+System memory in use after: 240.7 MB.
+
+Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 4758.
+Total: 9.029100 ms (FindLiveObjects: 0.367300 ms CreateObjectMapping: 0.234100 ms MarkObjects: 8.362200 ms  DeleteObjects: 0.064300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010237 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of FusionRoot couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ScriptableObject:CreateInstance (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs line 294]
+
+[ERROR; KS.SceneFusion.sfPaths] Error detecting Scene Fusion folder: Unable to load script FusionRoot. Setting Scene Fusion folder to Assets/KinematicSoup/SceneFusion/
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,object,int,int)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,System.Exception,object)
+KS.Reactor.ksLog:HandleLog (string,string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Log<string> (string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Error<string> (string,string)
+KS.SceneFusion.sfPaths:UseDefaultFusionFolder (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs Line: 294)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.391 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1391ms)
+		BeginReloadAssembly (143ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (1167ms)
+			LoadAssemblies (147ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (394ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (447ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (258ms)
+				ProcessInitializeOnLoadMethodAttributes (72ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3973 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 240.5 MB.
+System memory in use after: 240.7 MB.
+
+Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 4761.
+Total: 7.272700 ms (FindLiveObjects: 0.377400 ms CreateObjectMapping: 0.203400 ms MarkObjects: 6.573500 ms  DeleteObjects: 0.117000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009839 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.16 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of FusionRoot couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ScriptableObject:CreateInstance (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs line 294]
+
+[ERROR; KS.SceneFusion.sfPaths] Error detecting Scene Fusion folder: Unable to load script FusionRoot. Setting Scene Fusion folder to Assets/KinematicSoup/SceneFusion/
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,object,int,int)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,System.Exception,object)
+KS.Reactor.ksLog:HandleLog (string,string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Log<string> (string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Error<string> (string,string)
+KS.SceneFusion.sfPaths:UseDefaultFusionFolder (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs Line: 294)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.471 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1472ms)
+		BeginReloadAssembly (209ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (1181ms)
+			LoadAssemblies (199ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (405ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (438ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (249ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3973 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 240.5 MB.
+System memory in use after: 240.7 MB.
+
+Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 4764.
+Total: 8.082600 ms (FindLiveObjects: 0.490100 ms CreateObjectMapping: 0.354400 ms MarkObjects: 7.194000 ms  DeleteObjects: 0.042900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012864 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 5.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of FusionRoot couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ScriptableObject:CreateInstance (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs line 294]
+
+[ERROR; KS.SceneFusion.sfPaths] Error detecting Scene Fusion folder: Unable to load script FusionRoot. Setting Scene Fusion folder to Assets/KinematicSoup/SceneFusion/
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,object,int,int)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,System.Exception,object)
+KS.Reactor.ksLog:HandleLog (string,string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Log<string> (string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Error<string> (string,string)
+KS.SceneFusion.sfPaths:UseDefaultFusionFolder (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs Line: 294)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.880 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1880ms)
+		BeginReloadAssembly (142ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (1675ms)
+			LoadAssemblies (235ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (465ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (685ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (6ms)
+				BeforeProcessingInitializeOnLoad (142ms)
+				ProcessInitializeOnLoadAttributes (407ms)
+				ProcessInitializeOnLoadMethodAttributes (112ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (27ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3973 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 240.5 MB.
+System memory in use after: 240.8 MB.
+
+Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 4767.
+Total: 9.318000 ms (FindLiveObjects: 0.390100 ms CreateObjectMapping: 0.226100 ms MarkObjects: 8.644300 ms  DeleteObjects: 0.056000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011107 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of FusionRoot couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ScriptableObject:CreateInstance (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs line 294]
+
+[ERROR; KS.SceneFusion.sfPaths] Error detecting Scene Fusion folder: Unable to load script FusionRoot. Setting Scene Fusion folder to Assets/KinematicSoup/SceneFusion/
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,object,int,int)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,System.Exception,object)
+KS.Reactor.ksLog:HandleLog (string,string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Log<string> (string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Error<string> (string,string)
+KS.SceneFusion.sfPaths:UseDefaultFusionFolder (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs Line: 294)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.354 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1354ms)
+		BeginReloadAssembly (141ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1129ms)
+			LoadAssemblies (134ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (365ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (439ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (107ms)
+				ProcessInitializeOnLoadAttributes (249ms)
+				ProcessInitializeOnLoadMethodAttributes (71ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3973 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 240.5 MB.
+System memory in use after: 240.8 MB.
+
+Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 4770.
+Total: 11.518900 ms (FindLiveObjects: 0.467900 ms CreateObjectMapping: 0.282200 ms MarkObjects: 10.695900 ms  DeleteObjects: 0.071400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.019912 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of FusionRoot couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ScriptableObject:CreateInstance (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs line 294]
+
+[ERROR; KS.SceneFusion.sfPaths] Error detecting Scene Fusion folder: Unable to load script FusionRoot. Setting Scene Fusion folder to Assets/KinematicSoup/SceneFusion/
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,object,int,int)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,System.Exception,object)
+KS.Reactor.ksLog:HandleLog (string,string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Log<string> (string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Error<string> (string,string)
+KS.SceneFusion.sfPaths:UseDefaultFusionFolder (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs Line: 294)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.878 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1879ms)
+		BeginReloadAssembly (190ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (66ms)
+		EndReloadAssembly (1604ms)
+			LoadAssemblies (181ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (520ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (637ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (148ms)
+				ProcessInitializeOnLoadAttributes (368ms)
+				ProcessInitializeOnLoadMethodAttributes (103ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3973 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 240.5 MB.
+System memory in use after: 240.8 MB.
+
+Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 4773.
+Total: 9.273500 ms (FindLiveObjects: 0.487600 ms CreateObjectMapping: 0.381700 ms MarkObjects: 8.337100 ms  DeleteObjects: 0.065200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010008 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of FusionRoot couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ScriptableObject:CreateInstance (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs line 294]
+
+[ERROR; KS.SceneFusion.sfPaths] Error detecting Scene Fusion folder: Unable to load script FusionRoot. Setting Scene Fusion folder to Assets/KinematicSoup/SceneFusion/
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,object,int,int)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,System.Exception,object)
+KS.Reactor.ksLog:HandleLog (string,string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Log<string> (string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Error<string> (string,string)
+KS.SceneFusion.sfPaths:UseDefaultFusionFolder (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs Line: 294)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.368 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1369ms)
+		BeginReloadAssembly (166ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (1128ms)
+			LoadAssemblies (155ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (364ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (443ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (108ms)
+				ProcessInitializeOnLoadAttributes (248ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.21 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3973 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 240.5 MB.
+System memory in use after: 240.8 MB.
+
+Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 4776.
+Total: 7.057900 ms (FindLiveObjects: 0.377300 ms CreateObjectMapping: 0.209900 ms MarkObjects: 6.426400 ms  DeleteObjects: 0.043100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011615 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of FusionRoot couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ScriptableObject:CreateInstance (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs line 294]
+
+[ERROR; KS.SceneFusion.sfPaths] Error detecting Scene Fusion folder: Unable to load script FusionRoot. Setting Scene Fusion folder to Assets/KinematicSoup/SceneFusion/
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,object,int,int)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,System.Exception,object)
+KS.Reactor.ksLog:HandleLog (string,string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Log<string> (string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Error<string> (string,string)
+KS.SceneFusion.sfPaths:UseDefaultFusionFolder (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs Line: 294)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.491 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1491ms)
+		BeginReloadAssembly (176ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (1228ms)
+			LoadAssemblies (168ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (446ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (441ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (105ms)
+				ProcessInitializeOnLoadAttributes (253ms)
+				ProcessInitializeOnLoadMethodAttributes (70ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3973 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 240.5 MB.
+System memory in use after: 240.8 MB.
+
+Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 4779.
+Total: 7.941200 ms (FindLiveObjects: 0.399800 ms CreateObjectMapping: 0.213300 ms MarkObjects: 7.280500 ms  DeleteObjects: 0.046200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009406 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.16 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of FusionRoot couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ScriptableObject:CreateInstance (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs line 294]
+
+[ERROR; KS.SceneFusion.sfPaths] Error detecting Scene Fusion folder: Unable to load script FusionRoot. Setting Scene Fusion folder to Assets/KinematicSoup/SceneFusion/
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,object,int,int)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,System.Exception,object)
+KS.Reactor.ksLog:HandleLog (string,string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Log<string> (string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Error<string> (string,string)
+KS.SceneFusion.sfPaths:UseDefaultFusionFolder (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs Line: 294)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.550 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1551ms)
+		BeginReloadAssembly (179ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (1292ms)
+			LoadAssemblies (155ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (382ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (454ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (120ms)
+				ProcessInitializeOnLoadAttributes (250ms)
+				ProcessInitializeOnLoadMethodAttributes (72ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3973 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 240.5 MB.
+System memory in use after: 240.8 MB.
+
+Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 4782.
+Total: 7.373900 ms (FindLiveObjects: 0.379400 ms CreateObjectMapping: 0.183000 ms MarkObjects: 6.768200 ms  DeleteObjects: 0.042100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1868.041594 seconds.
+  path: Assets/AnimCharacter/Minhoca/MinhocaIdle.anim
+  artifactKey: Guid(83623b03713b17441a9aa131bbedc786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimCharacter/Minhoca/MinhocaIdle.anim using Guid(83623b03713b17441a9aa131bbedc786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b045d6579e0899bab5a58096fa8ebce') in 0.023503 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014715 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of FusionRoot couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ScriptableObject:CreateInstance (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs line 294]
+
+[ERROR; KS.SceneFusion.sfPaths] Error detecting Scene Fusion folder: Unable to load script FusionRoot. Setting Scene Fusion folder to Assets/KinematicSoup/SceneFusion/
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,object,int,int)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,System.Exception,object)
+KS.Reactor.ksLog:HandleLog (string,string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Log<string> (string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Error<string> (string,string)
+KS.SceneFusion.sfPaths:UseDefaultFusionFolder (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs Line: 294)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.440 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2441ms)
+		BeginReloadAssembly (199ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (65ms)
+		EndReloadAssembly (2144ms)
+			LoadAssemblies (201ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (669ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (100ms)
+			SetupLoadedEditorAssemblies (886ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (164ms)
+				ProcessInitializeOnLoadAttributes (514ms)
+				ProcessInitializeOnLoadMethodAttributes (188ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (27ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3973 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 240.5 MB.
+System memory in use after: 240.8 MB.
+
+Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 4785.
+Total: 12.315900 ms (FindLiveObjects: 0.532000 ms CreateObjectMapping: 1.231600 ms MarkObjects: 10.480100 ms  DeleteObjects: 0.070300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010222 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of FusionRoot couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ScriptableObject:CreateInstance (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs line 294]
+
+[ERROR; KS.SceneFusion.sfPaths] Error detecting Scene Fusion folder: Unable to load script FusionRoot. Setting Scene Fusion folder to Assets/KinematicSoup/SceneFusion/
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,object,int,int)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,System.Exception,object)
+KS.Reactor.ksLog:HandleLog (string,string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Log<string> (string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Error<string> (string,string)
+KS.SceneFusion.sfPaths:UseDefaultFusionFolder (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs Line: 294)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.461 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1461ms)
+		BeginReloadAssembly (158ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (1182ms)
+			LoadAssemblies (155ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (366ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (483ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (280ms)
+				ProcessInitializeOnLoadMethodAttributes (77ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3973 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 240.5 MB.
+System memory in use after: 240.8 MB.
+
+Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 4788.
+Total: 8.233500 ms (FindLiveObjects: 0.432200 ms CreateObjectMapping: 0.299800 ms MarkObjects: 7.450100 ms  DeleteObjects: 0.050200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009433 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of FusionRoot couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ScriptableObject:CreateInstance (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs line 294]
+
+[ERROR; KS.SceneFusion.sfPaths] Error detecting Scene Fusion folder: Unable to load script FusionRoot. Setting Scene Fusion folder to Assets/KinematicSoup/SceneFusion/
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,object,int,int)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,System.Exception,object)
+KS.Reactor.ksLog:HandleLog (string,string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Log<string> (string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Error<string> (string,string)
+KS.SceneFusion.sfPaths:UseDefaultFusionFolder (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs Line: 294)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.468 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1468ms)
+		BeginReloadAssembly (134ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1268ms)
+			LoadAssemblies (122ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (374ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (558ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (105ms)
+				ProcessInitializeOnLoadAttributes (358ms)
+				ProcessInitializeOnLoadMethodAttributes (82ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3973 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 240.6 MB.
+System memory in use after: 240.8 MB.
+
+Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 4791.
+Total: 7.625600 ms (FindLiveObjects: 0.564600 ms CreateObjectMapping: 0.317700 ms MarkObjects: 6.699000 ms  DeleteObjects: 0.043300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 152.704984 seconds.
+  path: Assets/Prefabs/Midboss.prefab
+  artifactKey: Guid(c7439ba8c32d4764b8153369516d1ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Midboss.prefab using Guid(c7439ba8c32d4764b8153369516d1ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68d7c4b4bc4f0253d1f778aa1d5201df') in 0.202187 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013953 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of FusionRoot couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ScriptableObject:CreateInstance (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs line 294]
+
+[ERROR; KS.SceneFusion.sfPaths] Error detecting Scene Fusion folder: Unable to load script FusionRoot. Setting Scene Fusion folder to Assets/KinematicSoup/SceneFusion/
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,object,int,int)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,System.Exception,object)
+KS.Reactor.ksLog:HandleLog (string,string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Log<string> (string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Error<string> (string,string)
+KS.SceneFusion.sfPaths:UseDefaultFusionFolder (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs Line: 294)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.491 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1492ms)
+		BeginReloadAssembly (183ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (60ms)
+		EndReloadAssembly (1223ms)
+			LoadAssemblies (165ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (354ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (527ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (325ms)
+				ProcessInitializeOnLoadMethodAttributes (77ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3973 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 240.7 MB.
+System memory in use after: 240.9 MB.
+
+Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 4830.
+Total: 8.033700 ms (FindLiveObjects: 0.386500 ms CreateObjectMapping: 0.266700 ms MarkObjects: 7.315000 ms  DeleteObjects: 0.063100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015662 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.21 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of FusionRoot couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ScriptableObject:CreateInstance (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs line 294]
+
+[ERROR; KS.SceneFusion.sfPaths] Error detecting Scene Fusion folder: Unable to load script FusionRoot. Setting Scene Fusion folder to Assets/KinematicSoup/SceneFusion/
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,object,int,int)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,System.Exception,object)
+KS.Reactor.ksLog:HandleLog (string,string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Log<string> (string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Error<string> (string,string)
+KS.SceneFusion.sfPaths:UseDefaultFusionFolder (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs Line: 294)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.579 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1581ms)
+		BeginReloadAssembly (197ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (60ms)
+		EndReloadAssembly (1308ms)
+			LoadAssemblies (167ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (434ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (495ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (115ms)
+				ProcessInitializeOnLoadAttributes (282ms)
+				ProcessInitializeOnLoadMethodAttributes (83ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.08 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3973 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 240.7 MB.
+System memory in use after: 240.9 MB.
+
+Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 4833.
+Total: 9.562000 ms (FindLiveObjects: 0.558800 ms CreateObjectMapping: 0.512900 ms MarkObjects: 8.370500 ms  DeleteObjects: 0.117900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 229.348142 seconds.
+  path: Assets/Prefabs/Minhoca.prefab
+  artifactKey: Guid(addc26dc73e8a5e409c4255afec005a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Minhoca.prefab using Guid(addc26dc73e8a5e409c4255afec005a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f98ea0543d526a0ba40b867acedf8ed2') in 0.182833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.254415 seconds.
+  path: Assets/Prefabs/Minhoca.prefab
+  artifactKey: Guid(addc26dc73e8a5e409c4255afec005a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Minhoca.prefab using Guid(addc26dc73e8a5e409c4255afec005a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8df85688193600f5ef39946c8e42d95c') in 0.025574 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014806 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of FusionRoot couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ScriptableObject:CreateInstance (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs line 294]
+
+[ERROR; KS.SceneFusion.sfPaths] Error detecting Scene Fusion folder: Unable to load script FusionRoot. Setting Scene Fusion folder to Assets/KinematicSoup/SceneFusion/
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,object,int,int)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,System.Exception,object)
+KS.Reactor.ksLog:HandleLog (string,string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Log<string> (string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Error<string> (string,string)
+KS.SceneFusion.sfPaths:UseDefaultFusionFolder (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs Line: 294)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.107 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2108ms)
+		BeginReloadAssembly (203ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (71ms)
+		EndReloadAssembly (1801ms)
+			LoadAssemblies (204ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (604ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (688ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (164ms)
+				ProcessInitializeOnLoadAttributes (395ms)
+				ProcessInitializeOnLoadMethodAttributes (109ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3973 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 240.8 MB.
+System memory in use after: 241.1 MB.
+
+Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 4872.
+Total: 11.036900 ms (FindLiveObjects: 0.756000 ms CreateObjectMapping: 0.694100 ms MarkObjects: 9.526100 ms  DeleteObjects: 0.059300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010687 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of FusionRoot couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ScriptableObject:CreateInstance (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs line 294]
+
+[ERROR; KS.SceneFusion.sfPaths] Error detecting Scene Fusion folder: Unable to load script FusionRoot. Setting Scene Fusion folder to Assets/KinematicSoup/SceneFusion/
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,object,int,int)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,System.Exception,object)
+KS.Reactor.ksLog:HandleLog (string,string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Log<string> (string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Error<string> (string,string)
+KS.SceneFusion.sfPaths:UseDefaultFusionFolder (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs Line: 294)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.471 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1471ms)
+		BeginReloadAssembly (150ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (1232ms)
+			LoadAssemblies (163ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (401ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (466ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (108ms)
+				ProcessInitializeOnLoadAttributes (255ms)
+				ProcessInitializeOnLoadMethodAttributes (89ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3973 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 240.8 MB.
+System memory in use after: 241.1 MB.
+
+Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 4875.
+Total: 7.638000 ms (FindLiveObjects: 0.507100 ms CreateObjectMapping: 0.329000 ms MarkObjects: 6.753400 ms  DeleteObjects: 0.047100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 105.982847 seconds.
+  path: Assets/Prefabs/MinhocaAviso.prefab
+  artifactKey: Guid(17251d3ff3f0c7844873eddbf6622071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MinhocaAviso.prefab using Guid(17251d3ff3f0c7844873eddbf6622071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94e01e98afce134530586775fb392850') in 0.188233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.606335 seconds.
+  path: Assets/Prefabs/MinhocaAviso.prefab
+  artifactKey: Guid(17251d3ff3f0c7844873eddbf6622071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MinhocaAviso.prefab using Guid(17251d3ff3f0c7844873eddbf6622071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d85e45ba9ef3ca330e6005e93be7db0') in 0.023991 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010305 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of FusionRoot couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ScriptableObject:CreateInstance (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs line 294]
+
+[ERROR; KS.SceneFusion.sfPaths] Error detecting Scene Fusion folder: Unable to load script FusionRoot. Setting Scene Fusion folder to Assets/KinematicSoup/SceneFusion/
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,object,int,int)
+KS.Reactor.ksLog:LogToUnity (KS.Reactor.ksLog/Level,string,string,System.Exception,object)
+KS.Reactor.ksLog:HandleLog (string,string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Log<string> (string,string,System.Exception,KS.Reactor.ksLog/Level,object)
+KS.Reactor.ksLog:Error<string> (string,string)
+KS.SceneFusion.sfPaths:UseDefaultFusionFolder (string)
+KS.SceneFusion.sfPaths:FindFusionRoot ()
+KS.SceneFusion.sfPaths:get_FusionRoot ()
+KS.SceneFusion.Client.Editor.PluginExtensionManager:GetAsmdefAssetPath (string)
+KS.SceneFusion.Client.Editor.PluginExtensionManager:UpdateReferencesToPluginAssemblies (string,string[],bool)
+KS.SceneFusion.API.sfUtility:RemovePluginReferences (string,string[])
+KS.SceneFusion.Extensions.ProBuilderExtension:.cctor () (at Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs:294)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/KinematicSoup/SceneFusion/Extensions/ProBuilder/Editor/ProBuilderExtension.cs Line: 294)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.485 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1486ms)
+		BeginReloadAssembly (154ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (1259ms)
+			LoadAssemblies (143ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (449ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (469ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (116ms)
+				ProcessInitializeOnLoadAttributes (264ms)
+				ProcessInitializeOnLoadMethodAttributes (75ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.11 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3973 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 241.0 MB.
+System memory in use after: 241.2 MB.
+
+Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 4914.
+Total: 7.176300 ms (FindLiveObjects: 0.388100 ms CreateObjectMapping: 0.256900 ms MarkObjects: 6.482100 ms  DeleteObjects: 0.047900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 139.159750 seconds.
+  path: Assets/Prefabs/Minhoca.prefab
+  artifactKey: Guid(addc26dc73e8a5e409c4255afec005a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Minhoca.prefab using Guid(addc26dc73e8a5e409c4255afec005a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02a8c1ec649b096a98c923c985878092') in 0.265994 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

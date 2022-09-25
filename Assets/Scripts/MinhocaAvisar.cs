@@ -7,6 +7,9 @@ public class MinhocaAvisar : MonoBehaviour
     [SerializeField]
     GameObject minhocaprefab;
 
+    [SerializeField]
+    LayerMask layerMask;
+
     float tempo = 0;
     // Start is called before the first frame update
     void Start()
@@ -25,5 +28,15 @@ public class MinhocaAvisar : MonoBehaviour
         }
         var mv = transform.position;
         mv.y = -18.36f;
+    }
+
+    private void FixedUpdate()
+    {
+        Collider2D hit = Physics2D.OverlapCircle(transform.position, 0.03f, layerMask);
+        // Debug.Log(rigidbody.velocity.y);
+        if (hit == null)
+        {
+            Destroy(gameObject);
+        }
     }
 }

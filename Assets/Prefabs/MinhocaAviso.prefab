@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 1290825056876907500}
   - component: {fileID: -8526457833115152298}
   - component: {fileID: 3886730463664939097}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: MinhocaAviso
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -118,3 +118,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minhocaprefab: {fileID: 648995019974465098, guid: addc26dc73e8a5e409c4255afec005a2,
     type: 3}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 512

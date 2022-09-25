@@ -23,7 +23,7 @@ public class LevelManager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         scene_atual = SceneManager.GetActiveScene().name;
-        if (life == 0)
+        if (life <= 0)
         {
             //GOAcao.instance.last_scene = SceneManager.GetActiveScene();
             SceneManager.LoadScene("GameOver");
