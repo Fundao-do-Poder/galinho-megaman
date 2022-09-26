@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: 3ced8393248b8e144af24ec8093d55ab
+guid: 4d5419ec327456846ada3c27f31f1baf
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6051521588232645407
-    second: Boss_Idle_0
+      213: 6228618926152490498
+    second: congratulations_0
   - first:
-      213: 8390920959967012993
-    second: Boss_Idle_1
+      213: -4953203394634198873
+    second: congratulations_1
   - first:
-      213: -3676956495255988514
-    second: Boss_Idle_2
+      213: -4494389275368119723
+    second: congratulations_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -55,7 +55,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 35
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Boss_Idle_0
+      name: congratulations_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 80
-        height: 80
+        x: 146
+        y: 246
+        width: 172
+        height: 71
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,20 +114,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e419c68d2da40ca0800000000000000
-      internalID: -6051521588232645407
+      spriteID: 20e1896a9ef707650800000000000000
+      internalID: 6228618926152490498
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss_Idle_1
+      name: congratulations_1
       rect:
         serializedVersion: 2
-        x: 80
-        y: 0
-        width: 80
-        height: 80
+        x: 148
+        y: 173
+        width: 172
+        height: 71
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -135,20 +135,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 188a635f72a827470800000000000000
-      internalID: 8390920959967012993
+      spriteID: 7a0d19a71cfa24bb0800000000000000
+      internalID: -4953203394634198873
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss_Idle_2
+      name: congratulations_2
       rect:
         serializedVersion: 2
-        x: 160
-        y: 0
-        width: 80
-        height: 80
+        x: 152
+        y: 88
+        width: 172
+        height: 71
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,8 +156,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed693b58c83d8fcc0800000000000000
-      internalID: -3676956495255988514
+      spriteID: 552ab5f24c8b0a1c0800000000000000
+      internalID: -4494389275368119723
       vertices: []
       indices: 
       edges: []

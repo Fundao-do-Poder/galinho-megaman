@@ -51,7 +51,7 @@ public class MTAcao : MonoBehaviour
 
         if (MT_sel_final == 1)
         {
-            SceneManager.LoadScene("Fase_1");
+            SceneManager.LoadScene("Fase_Intro");
         }
         if (MT_sel_final == 2)
         {

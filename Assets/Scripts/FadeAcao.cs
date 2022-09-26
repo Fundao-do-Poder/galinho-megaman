@@ -66,11 +66,7 @@ public class FadeAcao : MonoBehaviour
                 }
                 if (LevelManager.instance.scene_atual == "Fase_3")
                 {
-                    SceneManager.LoadScene("Fase_4");
-                }
-                if (LevelManager.instance.scene_atual == "Fase_4")
-                {
-                    SceneManager.LoadScene("Fase_End");
+                    SceneManager.LoadScene("GameCompleted");
                 }
             }
         }

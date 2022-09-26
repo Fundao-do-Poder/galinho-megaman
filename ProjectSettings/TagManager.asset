@@ -8,11 +8,12 @@ TagManager:
   - Enemy
   - Chao
   - Tiro
+  - EnemyHit
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - EnemyHit
   - Water
   - UI
   - EnemyShot
