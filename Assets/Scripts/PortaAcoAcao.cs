@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PortaAcao : MonoBehaviour
+public class PortaAcoAcao : MonoBehaviour
 {
     [SerializeField]
     public GameObject explosaoprefab;
@@ -14,7 +14,6 @@ public class PortaAcao : MonoBehaviour
     public Sprite frame_2;
 
     int timer = 0;
-
 
     // Start is called before the first frame update
     void Start()
@@ -46,15 +45,24 @@ public class PortaAcao : MonoBehaviour
     {
         if (collision.collider.CompareTag("Tiro"))
         {
-            timer++;
-            for (int i = 0; i < 8; i++)
+            if (collision.transform.localScale.x == 2)
             {
-                var exp = Instantiate(explosaoprefab, new Vector3(transform.position.x + Random.Range(-0.25f, 0.25f), transform.position.y + Random.Range(-0.25f, 0.25f), transform.position.z), Quaternion.identity);
-                exp.gameObject.transform.localScale = new Vector3(2.5f, 2.5f, 1);
+                timer++;
+                for (int i = 0; i < 8; i++)
+                {
+                    var exp = Instantiate(explosaoprefab, new Vector3(transform.position.x + Random.Range(-0.25f, 0.25f), transform.position.y + Random.Range(-0.25f, 0.25f), transform.position.z), Quaternion.identity);
+                    exp.gameObject.transform.localScale = new Vector3(2.5f, 2.5f, 1);
+                }
+
+
+            }
+            else
+            {
+                glow.Emit(15);
             }
 
             Destroy(collision.gameObject);
-            
+
 
         }
     }

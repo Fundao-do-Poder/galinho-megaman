@@ -51,7 +51,16 @@ public class MyCamera : MonoBehaviour {
 
             if (LevelManager.instance.scene_atual == "Fase_2_5")
             {
-                transform.position = new Vector3(0f, -16.24f, transform.position.z);
+                if (LevelManager.instance.unblock_midboss == false)
+                {
+                    transform.position = new Vector3(0f, -16.24f, transform.position.z);
+                } else 
+                {
+                    var pos = transform.position;
+                    pos.x = Mathf.Clamp(transform.position.x, -1.5f, 3.15f);
+                    transform.position = pos;
+                }
+                
             }
 
             if (LevelManager.instance.scene_atual == "Fase_3")

@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: ff5be2af3c38f644c809ca91e1f734ad
+guid: 4fe7d3edf6ec9a84f8a44bc5ab730290
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4899413872571721286
-    second: Spritesheet_Idle_Frangomem_0
+      213: 2151173979070428368
+    second: Midboss_Shot_0
   - first:
-      213: -7781982242691866610
-    second: Spritesheet_Idle_Frangomem_1
+      213: 3841874472871682893
+    second: Midboss_Shot_1
   - first:
-      213: 1995178242660047349
-    second: Spritesheet_Idle_Frangomem_2
+      213: -4044305590614801915
+    second: Midboss_Shot_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Spritesheet_Idle_Frangomem_0
+      name: Midboss_Shot_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 40
-        height: 60
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,20 +114,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 646224a75f63ef340800000000000000
-      internalID: 4899413872571721286
+      spriteID: 0d47e8826518add10800000000000000
+      internalID: 2151173979070428368
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spritesheet_Idle_Frangomem_1
+      name: Midboss_Shot_1
       rect:
         serializedVersion: 2
-        x: 40
+        x: 24
         y: 0
-        width: 40
-        height: 60
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -135,20 +135,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e0024f78168d00490800000000000000
-      internalID: -7781982242691866610
+      spriteID: d43682b5a74115530800000000000000
+      internalID: 3841874472871682893
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spritesheet_Idle_Frangomem_2
+      name: Midboss_Shot_2
       rect:
         serializedVersion: 2
-        x: 80
+        x: 48
         y: 0
-        width: 40
-        height: 60
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,8 +156,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f917517a0c40bb10800000000000000
-      internalID: 1995178242660047349
+      spriteID: 50247443e7dbfd7c0800000000000000
+      internalID: -4044305590614801915
       vertices: []
       indices: 
       edges: []
