@@ -17,6 +17,7 @@ public class Control : MonoBehaviour
     float tempo_vivo = 0;
     float tempo_vivo_t = 120;
     public Control instance;
+    float tempo_dano = 0;
 
     double atirarStart;
     double atirarNow;
@@ -66,6 +67,7 @@ public class Control : MonoBehaviour
 
     void Update()
     {
+        tempo_dano--;
         tempo_vivo++;
         //Debug.Log(tempo_vivo);
         Vector2 velAtual = rigidbody.velocity;
@@ -269,24 +271,50 @@ public class Control : MonoBehaviour
     {
         if (collision.collider.CompareTag("Damage"))
         {
-            LevelManager.instance.LowDamage();
-            if (animator.GetBool("GROUNDED"))
+            if (tempo_dano <= 0)
             {
-                if (collision.gameObject.transform.position.x < transform.position.x)
+                LevelManager.instance.LowDamage();
+                if (animator.GetBool("GROUNDED"))
                 {
-                    rigidbody.AddForce(new Vector2(16, 3), ForceMode2D.Force);
+                    if (collision.gameObject.transform.position.x < transform.position.x)
+                    {
+                        rigidbody.AddForce(new Vector2(16, 3), ForceMode2D.Force);
+                    }
+                    else
+                    {
+                        rigidbody.AddForce(new Vector2(-16, 3), ForceMode2D.Force);
+                    }
                 }
-                else
-                {
-                    rigidbody.AddForce(new Vector2(-16, 3), ForceMode2D.Force);
-                }
+                Destroy(collision.gameObject);
+                dano.Emit(30);
+                tempo_dano = 60;
             }
-            Destroy(collision.gameObject);
-            dano.Emit(30);
+            
         }
         if (collision.collider.CompareTag("Enemy"))
         {
             Physics2D.IgnoreCollision(collision.gameObject.GetComponent<Collider2D>(), GetComponent<Collider2D>());
+        }
+        if (collision.collider.CompareTag("EnemyHit"))
+        {
+            if (tempo_dano <= 0)
+            {
+                LevelManager.instance.LowDamage();
+                if (animator.GetBool("GROUNDED"))
+                {
+                    if (collision.gameObject.transform.position.x < transform.position.x)
+                    {
+                        rigidbody.AddForce(new Vector2(16, 3), ForceMode2D.Force);
+                    }
+                    else
+                    {
+                        rigidbody.AddForce(new Vector2(-16, 3), ForceMode2D.Force);
+                    }
+                }
+                dano.Emit(30);
+                tempo_dano = 120;
+            }
+
         }
     }
 

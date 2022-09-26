@@ -30,9 +30,17 @@ public class MyCamera : MonoBehaviour {
 
             if (LevelManager.instance.scene_atual == "Fase_0")
             {
-                var pos = transform.position;
-                pos.x = Mathf.Clamp(transform.position.x, -1.25f, 37.75f);
-                transform.position = pos;
+
+                if (LevelManager.instance.bossfight == true)
+                {
+                    transform.position = new Vector3(37.60f, -16.68f, transform.position.z);
+                }
+                else
+                {
+                    var pos = transform.position;
+                    pos.x = Mathf.Clamp(transform.position.x, -1.25f, 37.75f);
+                    transform.position = pos;
+                }
             }
 
             if (LevelManager.instance.scene_atual == "Fase_1")

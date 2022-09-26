@@ -16,6 +16,7 @@ public class LevelManager : MonoBehaviour {
     public bool start_level = true;
     public bool end_level = false;
     public bool unblock_midboss = false;
+    public bool bossfight = false;
 
     // Use this for initialization
     void Start () {
